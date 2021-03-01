@@ -71,6 +71,11 @@
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.o -c /home/fang/work/template/0223/test/BlockingQueue_test.cpp",
+  "file": "/home/fang/work/template/0223/test/BlockingQueue_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
   "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/countDown_test.dir/countDown_test.cpp.o -c /home/fang/work/template/0223/test/countDown_test.cpp",
   "file": "/home/fang/work/template/0223/test/countDown_test.cpp"
 },

@@ -8,7 +8,7 @@
             "defines": [],
             "compilerPath": "/home/fang/Downloads/gcc_arrch64/bin/aarch64-linux-gnu-gcc",
             "cStandard": "gnu11",
-            "cppStandard": "gnu++11",
+            "cppStandard": "c++11",
             "intelliSenseMode": "linux-gcc-arm64",
             "configurationProvider": "ms-vscode.cmake-tools",
             "compileCommands": "${workspaceFolder}/build/compile_commands.json"

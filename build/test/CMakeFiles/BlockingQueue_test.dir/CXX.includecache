@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../test/../src/include/mBlockingQueue.h
+mMutex.h
+../test/../src/include/mMutex.h
+mCondition.h
+../test/../src/include/mCondition.h
+deque
+-
+mutex
+-
+
+../test/../src/include/mCondition.h
+pthread.h
+-
+mMutex.h
+../test/../src/include/mMutex.h
+
+../test/../src/include/mMutex.h
+pthread.h
+-
+
+../test/../src/include/mthread.h
+iostream
+-
+functional
+-
+algorithm
+-
+atomic
+-
+
+/home/fang/work/template/0223/test/BlockingQueue_test.cpp
+mBlockingQueue.h
+/home/fang/work/template/0223/test/mBlockingQueue.h
+mthread.h
+/home/fang/work/template/0223/test/mthread.h
+unistd.h
+-
+

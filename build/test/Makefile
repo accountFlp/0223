@@ -159,6 +159,21 @@ netclient/fast:
 .PHONY : netclient/fast
 
 # Convenience name for target.
+test/CMakeFiles/BlockingQueue_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/BlockingQueue_test.dir/rule
+.PHONY : test/CMakeFiles/BlockingQueue_test.dir/rule
+
+# Convenience name for target.
+BlockingQueue_test: test/CMakeFiles/BlockingQueue_test.dir/rule
+
+.PHONY : BlockingQueue_test
+
+# fast build rule for target.
+BlockingQueue_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BlockingQueue_test.dir/build.make test/CMakeFiles/BlockingQueue_test.dir/build
+.PHONY : BlockingQueue_test/fast
+
+# Convenience name for target.
 test/CMakeFiles/countDown_test.dir/rule:
 	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/countDown_test.dir/rule
 .PHONY : test/CMakeFiles/countDown_test.dir/rule
@@ -247,6 +262,33 @@ exception_test: test/CMakeFiles/exception_test.dir/rule
 exception_test/fast:
 	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/exception_test.dir/build.make test/CMakeFiles/exception_test.dir/build
 .PHONY : exception_test/fast
+
+BlockingQueue_test.o: BlockingQueue_test.cpp.o
+
+.PHONY : BlockingQueue_test.o
+
+# target to build an object file
+BlockingQueue_test.cpp.o:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BlockingQueue_test.dir/build.make test/CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.o
+.PHONY : BlockingQueue_test.cpp.o
+
+BlockingQueue_test.i: BlockingQueue_test.cpp.i
+
+.PHONY : BlockingQueue_test.i
+
+# target to preprocess a source file
+BlockingQueue_test.cpp.i:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BlockingQueue_test.dir/build.make test/CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.i
+.PHONY : BlockingQueue_test.cpp.i
+
+BlockingQueue_test.s: BlockingQueue_test.cpp.s
+
+.PHONY : BlockingQueue_test.s
+
+# target to generate assembly for a file
+BlockingQueue_test.cpp.s:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BlockingQueue_test.dir/build.make test/CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.s
+.PHONY : BlockingQueue_test.cpp.s
 
 __/src/epollsev.o: __/src/epollsev.cpp.o
 
@@ -502,6 +544,7 @@ help:
 	@echo "... package_source"
 	@echo "... package"
 	@echo "... netclient"
+	@echo "... BlockingQueue_test"
 	@echo "... countDown_test"
 	@echo "... edit_cache"
 	@echo "... t"
@@ -509,6 +552,9 @@ help:
 	@echo "... thread_test"
 	@echo "... epollsev"
 	@echo "... exception_test"
+	@echo "... BlockingQueue_test.o"
+	@echo "... BlockingQueue_test.i"
+	@echo "... BlockingQueue_test.s"
 	@echo "... __/src/epollsev.o"
 	@echo "... __/src/epollsev.i"
 	@echo "... __/src/epollsev.s"

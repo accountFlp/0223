@@ -42,6 +42,7 @@
 /home/fang/work/template/0223/build/test/CMakeFiles/package_source.dir
 /home/fang/work/template/0223/build/test/CMakeFiles/package.dir
 /home/fang/work/template/0223/build/test/CMakeFiles/netclient.dir
+/home/fang/work/template/0223/build/test/CMakeFiles/BlockingQueue_test.dir
 /home/fang/work/template/0223/build/test/CMakeFiles/countDown_test.dir
 /home/fang/work/template/0223/build/test/CMakeFiles/edit_cache.dir
 /home/fang/work/template/0223/build/test/CMakeFiles/t.dir

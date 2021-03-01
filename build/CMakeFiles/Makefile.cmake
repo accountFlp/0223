@@ -86,6 +86,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake"
   "src/CMakeFiles/base.dir/DependInfo.cmake"
   "test/CMakeFiles/netclient.dir/DependInfo.cmake"
+  "test/CMakeFiles/BlockingQueue_test.dir/DependInfo.cmake"
   "test/CMakeFiles/countDown_test.dir/DependInfo.cmake"
   "test/CMakeFiles/t.dir/DependInfo.cmake"
   "test/CMakeFiles/mutex_test.dir/DependInfo.cmake"

@@ -534,6 +534,19 @@ netclient/fast:
 .PHONY : netclient/fast
 
 #=============================================================================
+# Target rules for targets named BlockingQueue_test
+
+# Build rule for target.
+BlockingQueue_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BlockingQueue_test
+.PHONY : BlockingQueue_test
+
+# fast build rule for target.
+BlockingQueue_test/fast:
+	$(MAKE) -f test/CMakeFiles/BlockingQueue_test.dir/build.make test/CMakeFiles/BlockingQueue_test.dir/build
+.PHONY : BlockingQueue_test/fast
+
+#=============================================================================
 # Target rules for targets named countDown_test
 
 # Build rule for target.
@@ -652,6 +665,7 @@ help:
 	@echo "... ExperimentalBuild"
 	@echo "... base"
 	@echo "... netclient"
+	@echo "... BlockingQueue_test"
 	@echo "... countDown_test"
 	@echo "... t"
 	@echo "... mutex_test"
