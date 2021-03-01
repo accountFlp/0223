@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../test/../src/include/mMutex.h
+pthread.h
+-
+
+../test/../src/include/mTimestamp.h
+stdint.h
+-
+string
+-
+boost/operators.hpp
+-
+
+../test/../src/include/mthread.h
+iostream
+-
+functional
+-
+algorithm
+-
+atomic
+-
+
+/home/fang/work/template/0223/test/mutex_test.cpp
+mMutex.h
+/home/fang/work/template/0223/test/mMutex.h
+mutex
+-
+vector
+-
+memory
+-
+mthread.h
+/home/fang/work/template/0223/test/mthread.h
+mTimestamp.h
+/home/fang/work/template/0223/test/mTimestamp.h
+

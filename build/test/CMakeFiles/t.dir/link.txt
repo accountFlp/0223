@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g -Wall -Wextra -std=c++11 -g  -rdynamic CMakeFiles/t.dir/多态.cpp.o  -o ../../bin/t  -L/home/fang/work/template/0223/lib 

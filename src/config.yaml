@@ -1,0 +1,8 @@
+curpath: /usr/local/bin
+
+intertime: 60
+#log level :trace debug info warn err critical off n_levels
+loggerLevel: debug
+logfileLevel: debug
+consoleLevel: debug
+logfilePath: ./logfile

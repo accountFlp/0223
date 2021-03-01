@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -Wextra -Werror -std=c++11  -rdynamic CMakeFiles/t.dir/多态.cpp.o  -o t 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -Wextra -Werror -std=c++11  -rdynamic CMakeFiles/netclient.dir/client.cpp.o  -o netclient  -L/home/fang/work/template/0223/test/./../lib  -L/home/fang/work/template/0223/test/../src/build 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../test/../src/include/mException.h
+exception
+-
+string
+-
+
+/home/fang/work/template/0223/test/exception_test.cpp
+iostream
+-
+mException.h
+/home/fang/work/template/0223/test/mException.h
+

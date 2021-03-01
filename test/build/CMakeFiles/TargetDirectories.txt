@@ -1,0 +1,6 @@
+/home/fang/work/template/0223/test/build/CMakeFiles/rebuild_cache.dir
+/home/fang/work/template/0223/test/build/CMakeFiles/netclient.dir
+/home/fang/work/template/0223/test/build/CMakeFiles/thread_test.dir
+/home/fang/work/template/0223/test/build/CMakeFiles/t.dir
+/home/fang/work/template/0223/test/build/CMakeFiles/edit_cache.dir
+/home/fang/work/template/0223/test/build/CMakeFiles/epollsev.dir
