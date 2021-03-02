@@ -56,39 +56,6 @@ CMAKE_BINARY_DIR = /home/fang/work/template/0223/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/fang/work/template/0223/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/fang/work/template/0223/build/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
-
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/fang/work/template/0223/build && /usr/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -110,6 +77,39 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/fang/work/template/0223/build && /usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
+
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd /home/fang/work/template/0223/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/fang/work/template/0223/build/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -144,6 +144,156 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+test/CMakeFiles/exception_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/exception_test.dir/rule
+.PHONY : test/CMakeFiles/exception_test.dir/rule
+
+# Convenience name for target.
+exception_test: test/CMakeFiles/exception_test.dir/rule
+
+.PHONY : exception_test
+
+# fast build rule for target.
+exception_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/exception_test.dir/build.make test/CMakeFiles/exception_test.dir/build
+.PHONY : exception_test/fast
+
+# Convenience name for target.
+test/CMakeFiles/epollsev.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/epollsev.dir/rule
+.PHONY : test/CMakeFiles/epollsev.dir/rule
+
+# Convenience name for target.
+epollsev: test/CMakeFiles/epollsev.dir/rule
+
+.PHONY : epollsev
+
+# fast build rule for target.
+epollsev/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/epollsev.dir/build.make test/CMakeFiles/epollsev.dir/build
+.PHONY : epollsev/fast
+
+# Convenience name for target.
+test/CMakeFiles/thread_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/thread_test.dir/rule
+.PHONY : test/CMakeFiles/thread_test.dir/rule
+
+# Convenience name for target.
+thread_test: test/CMakeFiles/thread_test.dir/rule
+
+.PHONY : thread_test
+
+# fast build rule for target.
+thread_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/thread_test.dir/build.make test/CMakeFiles/thread_test.dir/build
+.PHONY : thread_test/fast
+
+# Convenience name for target.
+test/CMakeFiles/mutex_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/mutex_test.dir/rule
+.PHONY : test/CMakeFiles/mutex_test.dir/rule
+
+# Convenience name for target.
+mutex_test: test/CMakeFiles/mutex_test.dir/rule
+
+.PHONY : mutex_test
+
+# fast build rule for target.
+mutex_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/mutex_test.dir/build.make test/CMakeFiles/mutex_test.dir/build
+.PHONY : mutex_test/fast
+
+# Convenience name for target.
+test/CMakeFiles/t.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/t.dir/rule
+.PHONY : test/CMakeFiles/t.dir/rule
+
+# Convenience name for target.
+t : test/CMakeFiles/t.dir/rule
+
+.PHONY : t
+
+# fast build rule for target.
+t/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/t.dir/build.make test/CMakeFiles/t.dir/build
+.PHONY : t/fast
+
+# Convenience name for target.
+test/CMakeFiles/countDown_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/countDown_test.dir/rule
+.PHONY : test/CMakeFiles/countDown_test.dir/rule
+
+# Convenience name for target.
+countDown_test: test/CMakeFiles/countDown_test.dir/rule
+
+.PHONY : countDown_test
+
+# fast build rule for target.
+countDown_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/countDown_test.dir/build.make test/CMakeFiles/countDown_test.dir/build
+.PHONY : countDown_test/fast
+
+# Convenience name for target.
+test/CMakeFiles/BlockingQueue_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/BlockingQueue_test.dir/rule
+.PHONY : test/CMakeFiles/BlockingQueue_test.dir/rule
+
+# Convenience name for target.
+BlockingQueue_test: test/CMakeFiles/BlockingQueue_test.dir/rule
+
+.PHONY : BlockingQueue_test
+
+# fast build rule for target.
+BlockingQueue_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BlockingQueue_test.dir/build.make test/CMakeFiles/BlockingQueue_test.dir/build
+.PHONY : BlockingQueue_test/fast
+
+# Convenience name for target.
+test/CMakeFiles/BoundBlockQueue_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/BoundBlockQueue_test.dir/rule
+.PHONY : test/CMakeFiles/BoundBlockQueue_test.dir/rule
+
+# Convenience name for target.
+BoundBlockQueue_test: test/CMakeFiles/BoundBlockQueue_test.dir/rule
+
+.PHONY : BoundBlockQueue_test
+
+# fast build rule for target.
+BoundBlockQueue_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BoundBlockQueue_test.dir/build.make test/CMakeFiles/BoundBlockQueue_test.dir/build
+.PHONY : BoundBlockQueue_test/fast
+
+# Convenience name for target.
+test/CMakeFiles/Singleton_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/Singleton_test.dir/rule
+.PHONY : test/CMakeFiles/Singleton_test.dir/rule
+
+# Convenience name for target.
+Singleton_test: test/CMakeFiles/Singleton_test.dir/rule
+
+.PHONY : Singleton_test
+
+# fast build rule for target.
+Singleton_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/Singleton_test.dir/build.make test/CMakeFiles/Singleton_test.dir/build
+.PHONY : Singleton_test/fast
+
+# Convenience name for target.
+test/CMakeFiles/ThreadLocal_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/ThreadLocal_test.dir/rule
+.PHONY : test/CMakeFiles/ThreadLocal_test.dir/rule
+
+# Convenience name for target.
+ThreadLocal_test: test/CMakeFiles/ThreadLocal_test.dir/rule
+
+.PHONY : ThreadLocal_test
+
+# fast build rule for target.
+ThreadLocal_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/ThreadLocal_test.dir/build.make test/CMakeFiles/ThreadLocal_test.dir/build
+.PHONY : ThreadLocal_test/fast
+
+# Convenience name for target.
 test/CMakeFiles/netclient.dir/rule:
 	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/netclient.dir/rule
 .PHONY : test/CMakeFiles/netclient.dir/rule
@@ -172,126 +322,6 @@ ThreadPool_test: test/CMakeFiles/ThreadPool_test.dir/rule
 ThreadPool_test/fast:
 	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/build
 .PHONY : ThreadPool_test/fast
-
-# Convenience name for target.
-test/CMakeFiles/BoundBlockQueue_test.dir/rule:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/BoundBlockQueue_test.dir/rule
-.PHONY : test/CMakeFiles/BoundBlockQueue_test.dir/rule
-
-# Convenience name for target.
-BoundBlockQueue_test: test/CMakeFiles/BoundBlockQueue_test.dir/rule
-
-.PHONY : BoundBlockQueue_test
-
-# fast build rule for target.
-BoundBlockQueue_test/fast:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BoundBlockQueue_test.dir/build.make test/CMakeFiles/BoundBlockQueue_test.dir/build
-.PHONY : BoundBlockQueue_test/fast
-
-# Convenience name for target.
-test/CMakeFiles/BlockingQueue_test.dir/rule:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/BlockingQueue_test.dir/rule
-.PHONY : test/CMakeFiles/BlockingQueue_test.dir/rule
-
-# Convenience name for target.
-BlockingQueue_test: test/CMakeFiles/BlockingQueue_test.dir/rule
-
-.PHONY : BlockingQueue_test
-
-# fast build rule for target.
-BlockingQueue_test/fast:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BlockingQueue_test.dir/build.make test/CMakeFiles/BlockingQueue_test.dir/build
-.PHONY : BlockingQueue_test/fast
-
-# Convenience name for target.
-test/CMakeFiles/countDown_test.dir/rule:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/countDown_test.dir/rule
-.PHONY : test/CMakeFiles/countDown_test.dir/rule
-
-# Convenience name for target.
-countDown_test: test/CMakeFiles/countDown_test.dir/rule
-
-.PHONY : countDown_test
-
-# fast build rule for target.
-countDown_test/fast:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/countDown_test.dir/build.make test/CMakeFiles/countDown_test.dir/build
-.PHONY : countDown_test/fast
-
-# Convenience name for target.
-test/CMakeFiles/t.dir/rule:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/t.dir/rule
-.PHONY : test/CMakeFiles/t.dir/rule
-
-# Convenience name for target.
-t : test/CMakeFiles/t.dir/rule
-
-.PHONY : t
-
-# fast build rule for target.
-t/fast:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/t.dir/build.make test/CMakeFiles/t.dir/build
-.PHONY : t/fast
-
-# Convenience name for target.
-test/CMakeFiles/mutex_test.dir/rule:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/mutex_test.dir/rule
-.PHONY : test/CMakeFiles/mutex_test.dir/rule
-
-# Convenience name for target.
-mutex_test: test/CMakeFiles/mutex_test.dir/rule
-
-.PHONY : mutex_test
-
-# fast build rule for target.
-mutex_test/fast:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/mutex_test.dir/build.make test/CMakeFiles/mutex_test.dir/build
-.PHONY : mutex_test/fast
-
-# Convenience name for target.
-test/CMakeFiles/thread_test.dir/rule:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/thread_test.dir/rule
-.PHONY : test/CMakeFiles/thread_test.dir/rule
-
-# Convenience name for target.
-thread_test: test/CMakeFiles/thread_test.dir/rule
-
-.PHONY : thread_test
-
-# fast build rule for target.
-thread_test/fast:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/thread_test.dir/build.make test/CMakeFiles/thread_test.dir/build
-.PHONY : thread_test/fast
-
-# Convenience name for target.
-test/CMakeFiles/epollsev.dir/rule:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/epollsev.dir/rule
-.PHONY : test/CMakeFiles/epollsev.dir/rule
-
-# Convenience name for target.
-epollsev: test/CMakeFiles/epollsev.dir/rule
-
-.PHONY : epollsev
-
-# fast build rule for target.
-epollsev/fast:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/epollsev.dir/build.make test/CMakeFiles/epollsev.dir/build
-.PHONY : epollsev/fast
-
-# Convenience name for target.
-test/CMakeFiles/exception_test.dir/rule:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/exception_test.dir/rule
-.PHONY : test/CMakeFiles/exception_test.dir/rule
-
-# Convenience name for target.
-exception_test: test/CMakeFiles/exception_test.dir/rule
-
-.PHONY : exception_test
-
-# fast build rule for target.
-exception_test/fast:
-	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/exception_test.dir/build.make test/CMakeFiles/exception_test.dir/build
-.PHONY : exception_test/fast
 
 BlockingQueue_test.o: BlockingQueue_test.cpp.o
 
@@ -346,6 +376,60 @@ BoundBlockQueue_test.s: BoundBlockQueue_test.cpp.s
 BoundBlockQueue_test.cpp.s:
 	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BoundBlockQueue_test.dir/build.make test/CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.s
 .PHONY : BoundBlockQueue_test.cpp.s
+
+Singleton_test.o: Singleton_test.cpp.o
+
+.PHONY : Singleton_test.o
+
+# target to build an object file
+Singleton_test.cpp.o:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/Singleton_test.dir/build.make test/CMakeFiles/Singleton_test.dir/Singleton_test.cpp.o
+.PHONY : Singleton_test.cpp.o
+
+Singleton_test.i: Singleton_test.cpp.i
+
+.PHONY : Singleton_test.i
+
+# target to preprocess a source file
+Singleton_test.cpp.i:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/Singleton_test.dir/build.make test/CMakeFiles/Singleton_test.dir/Singleton_test.cpp.i
+.PHONY : Singleton_test.cpp.i
+
+Singleton_test.s: Singleton_test.cpp.s
+
+.PHONY : Singleton_test.s
+
+# target to generate assembly for a file
+Singleton_test.cpp.s:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/Singleton_test.dir/build.make test/CMakeFiles/Singleton_test.dir/Singleton_test.cpp.s
+.PHONY : Singleton_test.cpp.s
+
+ThreadLocal_test.o: ThreadLocal_test.cpp.o
+
+.PHONY : ThreadLocal_test.o
+
+# target to build an object file
+ThreadLocal_test.cpp.o:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/ThreadLocal_test.dir/build.make test/CMakeFiles/ThreadLocal_test.dir/ThreadLocal_test.cpp.o
+.PHONY : ThreadLocal_test.cpp.o
+
+ThreadLocal_test.i: ThreadLocal_test.cpp.i
+
+.PHONY : ThreadLocal_test.i
+
+# target to preprocess a source file
+ThreadLocal_test.cpp.i:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/ThreadLocal_test.dir/build.make test/CMakeFiles/ThreadLocal_test.dir/ThreadLocal_test.cpp.i
+.PHONY : ThreadLocal_test.cpp.i
+
+ThreadLocal_test.s: ThreadLocal_test.cpp.s
+
+.PHONY : ThreadLocal_test.s
+
+# target to generate assembly for a file
+ThreadLocal_test.cpp.s:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/ThreadLocal_test.dir/build.make test/CMakeFiles/ThreadLocal_test.dir/ThreadLocal_test.cpp.s
+.PHONY : ThreadLocal_test.cpp.s
 
 ThreadPool_test.o: ThreadPool_test.cpp.o
 
@@ -623,27 +707,35 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... test"
-	@echo "... package_source"
-	@echo "... package"
-	@echo "... netclient"
-	@echo "... ThreadPool_test"
 	@echo "... rebuild_cache"
-	@echo "... BoundBlockQueue_test"
-	@echo "... BlockingQueue_test"
-	@echo "... countDown_test"
-	@echo "... edit_cache"
-	@echo "... t"
-	@echo "... mutex_test"
-	@echo "... thread_test"
-	@echo "... epollsev"
 	@echo "... exception_test"
+	@echo "... epollsev"
+	@echo "... thread_test"
+	@echo "... mutex_test"
+	@echo "... t"
+	@echo "... countDown_test"
+	@echo "... BlockingQueue_test"
+	@echo "... edit_cache"
+	@echo "... BoundBlockQueue_test"
+	@echo "... Singleton_test"
+	@echo "... ThreadLocal_test"
+	@echo "... netclient"
+	@echo "... package"
+	@echo "... package_source"
+	@echo "... ThreadPool_test"
+	@echo "... test"
 	@echo "... BlockingQueue_test.o"
 	@echo "... BlockingQueue_test.i"
 	@echo "... BlockingQueue_test.s"
 	@echo "... BoundBlockQueue_test.o"
 	@echo "... BoundBlockQueue_test.i"
 	@echo "... BoundBlockQueue_test.s"
+	@echo "... Singleton_test.o"
+	@echo "... Singleton_test.i"
+	@echo "... Singleton_test.s"
+	@echo "... ThreadLocal_test.o"
+	@echo "... ThreadLocal_test.i"
+	@echo "... ThreadLocal_test.s"
 	@echo "... ThreadPool_test.o"
 	@echo "... ThreadPool_test.i"
 	@echo "... ThreadPool_test.s"

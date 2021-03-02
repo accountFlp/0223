@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../test/../src/include/mThreadLocal.h
+thread
+-
+
+../test/../src/include/mthread.h
+iostream
+-
+functional
+-
+algorithm
+-
+atomic
+-
+thread
+-
+
+/home/fang/work/template/0223/test/ThreadLocal_test.cpp
+mThreadLocal.h
+/home/fang/work/template/0223/test/mThreadLocal.h
+mthread.h
+/home/fang/work/template/0223/test/mthread.h
+

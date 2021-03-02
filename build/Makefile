@@ -521,6 +521,136 @@ base/fast:
 .PHONY : base/fast
 
 #=============================================================================
+# Target rules for targets named exception_test
+
+# Build rule for target.
+exception_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exception_test
+.PHONY : exception_test
+
+# fast build rule for target.
+exception_test/fast:
+	$(MAKE) -f test/CMakeFiles/exception_test.dir/build.make test/CMakeFiles/exception_test.dir/build
+.PHONY : exception_test/fast
+
+#=============================================================================
+# Target rules for targets named epollsev
+
+# Build rule for target.
+epollsev: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 epollsev
+.PHONY : epollsev
+
+# fast build rule for target.
+epollsev/fast:
+	$(MAKE) -f test/CMakeFiles/epollsev.dir/build.make test/CMakeFiles/epollsev.dir/build
+.PHONY : epollsev/fast
+
+#=============================================================================
+# Target rules for targets named thread_test
+
+# Build rule for target.
+thread_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 thread_test
+.PHONY : thread_test
+
+# fast build rule for target.
+thread_test/fast:
+	$(MAKE) -f test/CMakeFiles/thread_test.dir/build.make test/CMakeFiles/thread_test.dir/build
+.PHONY : thread_test/fast
+
+#=============================================================================
+# Target rules for targets named mutex_test
+
+# Build rule for target.
+mutex_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mutex_test
+.PHONY : mutex_test
+
+# fast build rule for target.
+mutex_test/fast:
+	$(MAKE) -f test/CMakeFiles/mutex_test.dir/build.make test/CMakeFiles/mutex_test.dir/build
+.PHONY : mutex_test/fast
+
+#=============================================================================
+# Target rules for targets named t
+
+# Build rule for target.
+t : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 t
+.PHONY : t
+
+# fast build rule for target.
+t/fast:
+	$(MAKE) -f test/CMakeFiles/t.dir/build.make test/CMakeFiles/t.dir/build
+.PHONY : t/fast
+
+#=============================================================================
+# Target rules for targets named countDown_test
+
+# Build rule for target.
+countDown_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countDown_test
+.PHONY : countDown_test
+
+# fast build rule for target.
+countDown_test/fast:
+	$(MAKE) -f test/CMakeFiles/countDown_test.dir/build.make test/CMakeFiles/countDown_test.dir/build
+.PHONY : countDown_test/fast
+
+#=============================================================================
+# Target rules for targets named BlockingQueue_test
+
+# Build rule for target.
+BlockingQueue_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BlockingQueue_test
+.PHONY : BlockingQueue_test
+
+# fast build rule for target.
+BlockingQueue_test/fast:
+	$(MAKE) -f test/CMakeFiles/BlockingQueue_test.dir/build.make test/CMakeFiles/BlockingQueue_test.dir/build
+.PHONY : BlockingQueue_test/fast
+
+#=============================================================================
+# Target rules for targets named BoundBlockQueue_test
+
+# Build rule for target.
+BoundBlockQueue_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BoundBlockQueue_test
+.PHONY : BoundBlockQueue_test
+
+# fast build rule for target.
+BoundBlockQueue_test/fast:
+	$(MAKE) -f test/CMakeFiles/BoundBlockQueue_test.dir/build.make test/CMakeFiles/BoundBlockQueue_test.dir/build
+.PHONY : BoundBlockQueue_test/fast
+
+#=============================================================================
+# Target rules for targets named Singleton_test
+
+# Build rule for target.
+Singleton_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Singleton_test
+.PHONY : Singleton_test
+
+# fast build rule for target.
+Singleton_test/fast:
+	$(MAKE) -f test/CMakeFiles/Singleton_test.dir/build.make test/CMakeFiles/Singleton_test.dir/build
+.PHONY : Singleton_test/fast
+
+#=============================================================================
+# Target rules for targets named ThreadLocal_test
+
+# Build rule for target.
+ThreadLocal_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ThreadLocal_test
+.PHONY : ThreadLocal_test
+
+# fast build rule for target.
+ThreadLocal_test/fast:
+	$(MAKE) -f test/CMakeFiles/ThreadLocal_test.dir/build.make test/CMakeFiles/ThreadLocal_test.dir/build
+.PHONY : ThreadLocal_test/fast
+
+#=============================================================================
 # Target rules for targets named netclient
 
 # Build rule for target.
@@ -545,110 +675,6 @@ ThreadPool_test: cmake_check_build_system
 ThreadPool_test/fast:
 	$(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/build
 .PHONY : ThreadPool_test/fast
-
-#=============================================================================
-# Target rules for targets named BoundBlockQueue_test
-
-# Build rule for target.
-BoundBlockQueue_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BoundBlockQueue_test
-.PHONY : BoundBlockQueue_test
-
-# fast build rule for target.
-BoundBlockQueue_test/fast:
-	$(MAKE) -f test/CMakeFiles/BoundBlockQueue_test.dir/build.make test/CMakeFiles/BoundBlockQueue_test.dir/build
-.PHONY : BoundBlockQueue_test/fast
-
-#=============================================================================
-# Target rules for targets named BlockingQueue_test
-
-# Build rule for target.
-BlockingQueue_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BlockingQueue_test
-.PHONY : BlockingQueue_test
-
-# fast build rule for target.
-BlockingQueue_test/fast:
-	$(MAKE) -f test/CMakeFiles/BlockingQueue_test.dir/build.make test/CMakeFiles/BlockingQueue_test.dir/build
-.PHONY : BlockingQueue_test/fast
-
-#=============================================================================
-# Target rules for targets named countDown_test
-
-# Build rule for target.
-countDown_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 countDown_test
-.PHONY : countDown_test
-
-# fast build rule for target.
-countDown_test/fast:
-	$(MAKE) -f test/CMakeFiles/countDown_test.dir/build.make test/CMakeFiles/countDown_test.dir/build
-.PHONY : countDown_test/fast
-
-#=============================================================================
-# Target rules for targets named t
-
-# Build rule for target.
-t : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 t
-.PHONY : t
-
-# fast build rule for target.
-t/fast:
-	$(MAKE) -f test/CMakeFiles/t.dir/build.make test/CMakeFiles/t.dir/build
-.PHONY : t/fast
-
-#=============================================================================
-# Target rules for targets named mutex_test
-
-# Build rule for target.
-mutex_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mutex_test
-.PHONY : mutex_test
-
-# fast build rule for target.
-mutex_test/fast:
-	$(MAKE) -f test/CMakeFiles/mutex_test.dir/build.make test/CMakeFiles/mutex_test.dir/build
-.PHONY : mutex_test/fast
-
-#=============================================================================
-# Target rules for targets named thread_test
-
-# Build rule for target.
-thread_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 thread_test
-.PHONY : thread_test
-
-# fast build rule for target.
-thread_test/fast:
-	$(MAKE) -f test/CMakeFiles/thread_test.dir/build.make test/CMakeFiles/thread_test.dir/build
-.PHONY : thread_test/fast
-
-#=============================================================================
-# Target rules for targets named epollsev
-
-# Build rule for target.
-epollsev: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 epollsev
-.PHONY : epollsev
-
-# fast build rule for target.
-epollsev/fast:
-	$(MAKE) -f test/CMakeFiles/epollsev.dir/build.make test/CMakeFiles/epollsev.dir/build
-.PHONY : epollsev/fast
-
-#=============================================================================
-# Target rules for targets named exception_test
-
-# Build rule for target.
-exception_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 exception_test
-.PHONY : exception_test
-
-# fast build rule for target.
-exception_test/fast:
-	$(MAKE) -f test/CMakeFiles/exception_test.dir/build.make test/CMakeFiles/exception_test.dir/build
-.PHONY : exception_test/fast
 
 # Help Target
 help:
@@ -690,16 +716,18 @@ help:
 	@echo "... ContinuousUpdate"
 	@echo "... ExperimentalBuild"
 	@echo "... base"
+	@echo "... exception_test"
+	@echo "... epollsev"
+	@echo "... thread_test"
+	@echo "... mutex_test"
+	@echo "... t"
+	@echo "... countDown_test"
+	@echo "... BlockingQueue_test"
+	@echo "... BoundBlockQueue_test"
+	@echo "... Singleton_test"
+	@echo "... ThreadLocal_test"
 	@echo "... netclient"
 	@echo "... ThreadPool_test"
-	@echo "... BoundBlockQueue_test"
-	@echo "... BlockingQueue_test"
-	@echo "... countDown_test"
-	@echo "... t"
-	@echo "... mutex_test"
-	@echo "... thread_test"
-	@echo "... epollsev"
-	@echo "... exception_test"
 .PHONY : help
 
 

@@ -71,43 +71,8 @@
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/netclient.dir/client.cpp.o -c /home/fang/work/template/0223/test/client.cpp",
-  "file": "/home/fang/work/template/0223/test/client.cpp"
-},
-{
-  "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.o -c /home/fang/work/template/0223/test/ThreadPool_test.cpp",
-  "file": "/home/fang/work/template/0223/test/ThreadPool_test.cpp"
-},
-{
-  "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.o -c /home/fang/work/template/0223/test/BoundBlockQueue_test.cpp",
-  "file": "/home/fang/work/template/0223/test/BoundBlockQueue_test.cpp"
-},
-{
-  "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.o -c /home/fang/work/template/0223/test/BlockingQueue_test.cpp",
-  "file": "/home/fang/work/template/0223/test/BlockingQueue_test.cpp"
-},
-{
-  "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/countDown_test.dir/countDown_test.cpp.o -c /home/fang/work/template/0223/test/countDown_test.cpp",
-  "file": "/home/fang/work/template/0223/test/countDown_test.cpp"
-},
-{
-  "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/t.dir/多态.cpp.o -c /home/fang/work/template/0223/test/多态.cpp",
-  "file": "/home/fang/work/template/0223/test/多态.cpp"
-},
-{
-  "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/mutex_test.dir/mutex_test.cpp.o -c /home/fang/work/template/0223/test/mutex_test.cpp",
-  "file": "/home/fang/work/template/0223/test/mutex_test.cpp"
-},
-{
-  "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/thread_test.dir/thread_test.cc.o -c /home/fang/work/template/0223/test/thread_test.cc",
-  "file": "/home/fang/work/template/0223/test/thread_test.cc"
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/exception_test.dir/exception_test.cpp.o -c /home/fang/work/template/0223/test/exception_test.cpp",
+  "file": "/home/fang/work/template/0223/test/exception_test.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
@@ -126,7 +91,52 @@
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/exception_test.dir/exception_test.cpp.o -c /home/fang/work/template/0223/test/exception_test.cpp",
-  "file": "/home/fang/work/template/0223/test/exception_test.cpp"
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/thread_test.dir/thread_test.cc.o -c /home/fang/work/template/0223/test/thread_test.cc",
+  "file": "/home/fang/work/template/0223/test/thread_test.cc"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/mutex_test.dir/mutex_test.cpp.o -c /home/fang/work/template/0223/test/mutex_test.cpp",
+  "file": "/home/fang/work/template/0223/test/mutex_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/t.dir/多态.cpp.o -c /home/fang/work/template/0223/test/多态.cpp",
+  "file": "/home/fang/work/template/0223/test/多态.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/countDown_test.dir/countDown_test.cpp.o -c /home/fang/work/template/0223/test/countDown_test.cpp",
+  "file": "/home/fang/work/template/0223/test/countDown_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.o -c /home/fang/work/template/0223/test/BlockingQueue_test.cpp",
+  "file": "/home/fang/work/template/0223/test/BlockingQueue_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.o -c /home/fang/work/template/0223/test/BoundBlockQueue_test.cpp",
+  "file": "/home/fang/work/template/0223/test/BoundBlockQueue_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/Singleton_test.dir/Singleton_test.cpp.o -c /home/fang/work/template/0223/test/Singleton_test.cpp",
+  "file": "/home/fang/work/template/0223/test/Singleton_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/ThreadLocal_test.dir/ThreadLocal_test.cpp.o -c /home/fang/work/template/0223/test/ThreadLocal_test.cpp",
+  "file": "/home/fang/work/template/0223/test/ThreadLocal_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/netclient.dir/client.cpp.o -c /home/fang/work/template/0223/test/client.cpp",
+  "file": "/home/fang/work/template/0223/test/client.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.o -c /home/fang/work/template/0223/test/ThreadPool_test.cpp",
+  "file": "/home/fang/work/template/0223/test/ThreadPool_test.cpp"
 }
 ]

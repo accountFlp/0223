@@ -56,4 +56,12 @@ set(ThreadPool_test_src "./ThreadPool_test.cpp")
 add_executable(ThreadPool_test ${ThreadPool_test_src})
 target_link_libraries(ThreadPool_test "libyaml-cpp.a" "libspdlog.a" "libbase.a" "pthread")
 
+set(Singleton_test_src "./Singleton_test.cpp")
+add_executable(Singleton_test ${Singleton_test_src})
+target_link_libraries(Singleton_test "libyaml-cpp.a" "libspdlog.a" "libbase.a" "pthread")
+
+set(ThreadLocal_test_src "./ThreadLocal_test.cpp")
+add_executable(ThreadLocal_test ${ThreadLocal_test_src})
+target_link_libraries(ThreadLocal_test "libyaml-cpp.a" "libspdlog.a" "libbase.a" "pthread")
+
 add_executable(netclient client.cpp)

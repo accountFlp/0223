@@ -21,7 +21,7 @@ namespace C0223
         public:
             typedef std::function<void()> Func;
             mThreadPool(int t,int queSize):threadSize(t),queueSize(queSize),mutex_(),notFull(mutex_),notEmpty(mutex_){}
-            ~mThreadPool(){}
+            ~mThreadPool();
             void start();
             void run();
             Func getTask();
