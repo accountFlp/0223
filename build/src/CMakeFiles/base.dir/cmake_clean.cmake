@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/base.dir/mCountDown.cpp.o"
   "CMakeFiles/base.dir/mException.cpp.o"
   "CMakeFiles/base.dir/mMutex.cpp.o"
+  "CMakeFiles/base.dir/mThreadPool.cpp.o"
   "CMakeFiles/base.dir/mTimeStamp.cpp.o"
   "CMakeFiles/base.dir/poll_server.cpp.o"
   "CMakeFiles/base.dir/thread.cpp.o"

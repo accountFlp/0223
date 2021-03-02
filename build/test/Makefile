@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/fang/work/template/0223/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -99,6 +88,17 @@ package: preinstall
 package/fast: package
 
 .PHONY : package/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -157,6 +157,36 @@ netclient: test/CMakeFiles/netclient.dir/rule
 netclient/fast:
 	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/netclient.dir/build.make test/CMakeFiles/netclient.dir/build
 .PHONY : netclient/fast
+
+# Convenience name for target.
+test/CMakeFiles/ThreadPool_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/ThreadPool_test.dir/rule
+.PHONY : test/CMakeFiles/ThreadPool_test.dir/rule
+
+# Convenience name for target.
+ThreadPool_test: test/CMakeFiles/ThreadPool_test.dir/rule
+
+.PHONY : ThreadPool_test
+
+# fast build rule for target.
+ThreadPool_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/build
+.PHONY : ThreadPool_test/fast
+
+# Convenience name for target.
+test/CMakeFiles/BoundBlockQueue_test.dir/rule:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/BoundBlockQueue_test.dir/rule
+.PHONY : test/CMakeFiles/BoundBlockQueue_test.dir/rule
+
+# Convenience name for target.
+BoundBlockQueue_test: test/CMakeFiles/BoundBlockQueue_test.dir/rule
+
+.PHONY : BoundBlockQueue_test
+
+# fast build rule for target.
+BoundBlockQueue_test/fast:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BoundBlockQueue_test.dir/build.make test/CMakeFiles/BoundBlockQueue_test.dir/build
+.PHONY : BoundBlockQueue_test/fast
 
 # Convenience name for target.
 test/CMakeFiles/BlockingQueue_test.dir/rule:
@@ -289,6 +319,60 @@ BlockingQueue_test.s: BlockingQueue_test.cpp.s
 BlockingQueue_test.cpp.s:
 	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BlockingQueue_test.dir/build.make test/CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.s
 .PHONY : BlockingQueue_test.cpp.s
+
+BoundBlockQueue_test.o: BoundBlockQueue_test.cpp.o
+
+.PHONY : BoundBlockQueue_test.o
+
+# target to build an object file
+BoundBlockQueue_test.cpp.o:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BoundBlockQueue_test.dir/build.make test/CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.o
+.PHONY : BoundBlockQueue_test.cpp.o
+
+BoundBlockQueue_test.i: BoundBlockQueue_test.cpp.i
+
+.PHONY : BoundBlockQueue_test.i
+
+# target to preprocess a source file
+BoundBlockQueue_test.cpp.i:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BoundBlockQueue_test.dir/build.make test/CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.i
+.PHONY : BoundBlockQueue_test.cpp.i
+
+BoundBlockQueue_test.s: BoundBlockQueue_test.cpp.s
+
+.PHONY : BoundBlockQueue_test.s
+
+# target to generate assembly for a file
+BoundBlockQueue_test.cpp.s:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/BoundBlockQueue_test.dir/build.make test/CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.s
+.PHONY : BoundBlockQueue_test.cpp.s
+
+ThreadPool_test.o: ThreadPool_test.cpp.o
+
+.PHONY : ThreadPool_test.o
+
+# target to build an object file
+ThreadPool_test.cpp.o:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.o
+.PHONY : ThreadPool_test.cpp.o
+
+ThreadPool_test.i: ThreadPool_test.cpp.i
+
+.PHONY : ThreadPool_test.i
+
+# target to preprocess a source file
+ThreadPool_test.cpp.i:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.i
+.PHONY : ThreadPool_test.cpp.i
+
+ThreadPool_test.s: ThreadPool_test.cpp.s
+
+.PHONY : ThreadPool_test.s
+
+# target to generate assembly for a file
+ThreadPool_test.cpp.s:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.s
+.PHONY : ThreadPool_test.cpp.s
 
 __/src/epollsev.o: __/src/epollsev.cpp.o
 
@@ -539,11 +623,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... package_source"
 	@echo "... package"
 	@echo "... netclient"
+	@echo "... ThreadPool_test"
+	@echo "... rebuild_cache"
+	@echo "... BoundBlockQueue_test"
 	@echo "... BlockingQueue_test"
 	@echo "... countDown_test"
 	@echo "... edit_cache"
@@ -555,6 +641,12 @@ help:
 	@echo "... BlockingQueue_test.o"
 	@echo "... BlockingQueue_test.i"
 	@echo "... BlockingQueue_test.s"
+	@echo "... BoundBlockQueue_test.o"
+	@echo "... BoundBlockQueue_test.i"
+	@echo "... BoundBlockQueue_test.s"
+	@echo "... ThreadPool_test.o"
+	@echo "... ThreadPool_test.i"
+	@echo "... ThreadPool_test.s"
 	@echo "... __/src/epollsev.o"
 	@echo "... __/src/epollsev.i"
 	@echo "... __/src/epollsev.s"

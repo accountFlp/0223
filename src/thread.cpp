@@ -4,13 +4,16 @@
 #include <assert.h>
 #include <string>
 #include <sys/prctl.h>
+#include <string>
 
 
 namespace THD
 {
+    thread_local pthread_t currentPthreadID_=syscall(SYS_gettid);
+    thread_local std::string currentPthreadName;
     std::atomic<int32_t> mThread::count(0);
     mThread::mThread(mThreadFunc func,const char* tName):\
-    pid_(syscall(SYS_gettid)),status_(initted),mFunc(func),threadName(tName){
+    status_(initted),mFunc(func),threadName(tName){
         if(tName==NULL)setDefaultThreadName();
         count.fetch_add(1);
     }
@@ -18,9 +21,15 @@ namespace THD
         if(status_==runing)pthread_detach(pthreadID_);
         count.fetch_sub(1);
     }
+    pid_t mThread::getTid(){
+        return pid_;
+    }
     void* mThread::run(void*arg){
         prctl(PR_SET_NAME, static_cast<mThread*>(arg)->name());
-        static_cast<mThread*>(arg)->mFunc();
+        static_cast<mThread*>(arg)->pid_=syscall(SYS_gettid);
+        currentPthreadID_=syscall(SYS_gettid);
+        currentPthreadName=static_cast<mThread*>(arg)->name();
+        static_cast<mThread*>(arg)->mFunc();  
         return NULL;
     }
     void mThread::start(){

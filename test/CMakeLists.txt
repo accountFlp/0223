@@ -48,4 +48,12 @@ set(BlockingQueue_test_src "./BlockingQueue_test.cpp")
 add_executable(BlockingQueue_test ${BlockingQueue_test_src})
 target_link_libraries(BlockingQueue_test "libyaml-cpp.a" "libspdlog.a" "libbase.a" "pthread")
 
+set(BoundBlockQueue_test_src "./BoundBlockQueue_test.cpp")
+add_executable(BoundBlockQueue_test ${BoundBlockQueue_test_src})
+target_link_libraries(BoundBlockQueue_test "libyaml-cpp.a" "libspdlog.a" "libbase.a" "pthread")
+
+set(ThreadPool_test_src "./ThreadPool_test.cpp")
+add_executable(ThreadPool_test ${ThreadPool_test_src})
+target_link_libraries(ThreadPool_test "libyaml-cpp.a" "libspdlog.a" "libbase.a" "pthread")
+
 add_executable(netclient client.cpp)

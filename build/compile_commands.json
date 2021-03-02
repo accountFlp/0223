@@ -46,6 +46,11 @@
 },
 {
   "directory": "/home/fang/work/template/0223/build/src",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/mThreadPool.cpp.o -c /home/fang/work/template/0223/src/mThreadPool.cpp",
+  "file": "/home/fang/work/template/0223/src/mThreadPool.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/src",
   "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/mTimeStamp.cpp.o -c /home/fang/work/template/0223/src/mTimeStamp.cpp",
   "file": "/home/fang/work/template/0223/src/mTimeStamp.cpp"
 },
@@ -68,6 +73,16 @@
   "directory": "/home/fang/work/template/0223/build/test",
   "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/netclient.dir/client.cpp.o -c /home/fang/work/template/0223/test/client.cpp",
   "file": "/home/fang/work/template/0223/test/client.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.o -c /home/fang/work/template/0223/test/ThreadPool_test.cpp",
+  "file": "/home/fang/work/template/0223/test/ThreadPool_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.o -c /home/fang/work/template/0223/test/BoundBlockQueue_test.cpp",
+  "file": "/home/fang/work/template/0223/test/BoundBlockQueue_test.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",

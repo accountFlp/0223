@@ -534,6 +534,32 @@ netclient/fast:
 .PHONY : netclient/fast
 
 #=============================================================================
+# Target rules for targets named ThreadPool_test
+
+# Build rule for target.
+ThreadPool_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ThreadPool_test
+.PHONY : ThreadPool_test
+
+# fast build rule for target.
+ThreadPool_test/fast:
+	$(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/build
+.PHONY : ThreadPool_test/fast
+
+#=============================================================================
+# Target rules for targets named BoundBlockQueue_test
+
+# Build rule for target.
+BoundBlockQueue_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BoundBlockQueue_test
+.PHONY : BoundBlockQueue_test
+
+# fast build rule for target.
+BoundBlockQueue_test/fast:
+	$(MAKE) -f test/CMakeFiles/BoundBlockQueue_test.dir/build.make test/CMakeFiles/BoundBlockQueue_test.dir/build
+.PHONY : BoundBlockQueue_test/fast
+
+#=============================================================================
 # Target rules for targets named BlockingQueue_test
 
 # Build rule for target.
@@ -665,6 +691,8 @@ help:
 	@echo "... ExperimentalBuild"
 	@echo "... base"
 	@echo "... netclient"
+	@echo "... ThreadPool_test"
+	@echo "... BoundBlockQueue_test"
 	@echo "... BlockingQueue_test"
 	@echo "... countDown_test"
 	@echo "... t"

@@ -1,7 +1,8 @@
 #include "mthread.h"
 #include<unistd.h>
+#include <sys/syscall.h>   /* For SYS_xxx definitions */
 void test(){
-    std::cout<<"hello test"<<std::endl;
+    std::cout<<"curthread:"<<THD::currentPthreadID_<<"hello test"<<std::endl;
 }
 class A{
     public:
@@ -17,6 +18,7 @@ int main(){
     t3.start();
     std::cout<<"count:"<<t1.getCount()<<std::endl;
     std::cout<<"name:"<<t1.name()<<std::endl;
+    std::cout<<"current"<<syscall(SYS_gettid)<<"thradid"<<t1.getTid()<<std::endl;
     sleep(2);
     return 0;
 }

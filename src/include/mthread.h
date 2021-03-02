@@ -20,9 +20,12 @@
 #include <functional>
 #include <algorithm>
 #include <atomic>
+#include <thread>
 
 namespace THD
 {
+    extern thread_local pthread_t currentPthreadID_;
+    extern thread_local std::string currentPthreadName;
     class mThread{
         typedef std::function<void()> mThreadFunc;
         enum status{initted,runing,stoped,joined};
@@ -32,6 +35,7 @@ namespace THD
             void start();
             void join();
             static int  getCount();
+            pid_t getTid();
             status getStatus();  
             std::string name(){return threadName;}
             

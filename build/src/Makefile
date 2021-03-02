@@ -401,6 +401,33 @@ mMutex.cpp.s:
 	cd /home/fang/work/template/0223/build && $(MAKE) -f src/CMakeFiles/base.dir/build.make src/CMakeFiles/base.dir/mMutex.cpp.s
 .PHONY : mMutex.cpp.s
 
+mThreadPool.o: mThreadPool.cpp.o
+
+.PHONY : mThreadPool.o
+
+# target to build an object file
+mThreadPool.cpp.o:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f src/CMakeFiles/base.dir/build.make src/CMakeFiles/base.dir/mThreadPool.cpp.o
+.PHONY : mThreadPool.cpp.o
+
+mThreadPool.i: mThreadPool.cpp.i
+
+.PHONY : mThreadPool.i
+
+# target to preprocess a source file
+mThreadPool.cpp.i:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f src/CMakeFiles/base.dir/build.make src/CMakeFiles/base.dir/mThreadPool.cpp.i
+.PHONY : mThreadPool.cpp.i
+
+mThreadPool.s: mThreadPool.cpp.s
+
+.PHONY : mThreadPool.s
+
+# target to generate assembly for a file
+mThreadPool.cpp.s:
+	cd /home/fang/work/template/0223/build && $(MAKE) -f src/CMakeFiles/base.dir/build.make src/CMakeFiles/base.dir/mThreadPool.cpp.s
+.PHONY : mThreadPool.cpp.s
+
 mTimeStamp.o: mTimeStamp.cpp.o
 
 .PHONY : mTimeStamp.o
@@ -548,6 +575,9 @@ help:
 	@echo "... mMutex.o"
 	@echo "... mMutex.i"
 	@echo "... mMutex.s"
+	@echo "... mThreadPool.o"
+	@echo "... mThreadPool.i"
+	@echo "... mThreadPool.s"
 	@echo "... mTimeStamp.o"
 	@echo "... mTimeStamp.i"
 	@echo "... mTimeStamp.s"

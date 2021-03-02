@@ -35,6 +35,8 @@ algorithm
 -
 atomic
 -
+thread
+-
 
 /home/fang/work/template/0223/test/BlockingQueue_test.cpp
 mBlockingQueue.h
