@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../src/base/include/mSingleton.h
+pthread.h
+-
+stdint.h
+-
+stdlib.h
+-
+assert.h
+-
+
+../../src/base/include/mthread.h
+iostream
+-
+functional
+-
+algorithm
+-
+atomic
+-
+thread
+-
+
+/home/fang/work/template/0223/test/Singleton_test.cpp
+mSingleton.h
+/home/fang/work/template/0223/test/mSingleton.h
+mthread.h
+/home/fang/work/template/0223/test/mthread.h
+

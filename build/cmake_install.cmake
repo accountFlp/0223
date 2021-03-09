@@ -39,7 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/fang/work/template/0223/build/src/cmake_install.cmake")
+  include("/home/fang/work/template/0223/build/src/base/cmake_install.cmake")
+  include("/home/fang/work/template/0223/build/src/net/cmake_install.cmake")
   include("/home/fang/work/template/0223/build/test/cmake_install.cmake")
 
 endif()

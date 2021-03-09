@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -Wextra -std=c++11  -rdynamic CMakeFiles/EventLoopThread_test.dir/EventLoopThread_test.cpp.o  -o EventLoopThread_test  -L/home/fang/work/template/0223/test/./../lib -Wl,-rpath,/home/fang/work/template/0223/test/./../lib -Wl,-Bstatic -lbase -lnet -Wl,-Bdynamic -lpthread 

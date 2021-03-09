@@ -13,24 +13,24 @@ void testFunc(MCD::mCountDown &mc){
     sleep(10);   
 }
 void handler(int sig){
-    std::cout<<EXP::stackTrace(true)<<std::endl;
+    std::cout<<"sig:"<<sig<<BASE::stackTrace(true)<<std::endl;
     exit(0);
 }
 //MCD::mCountDown mc(1);
 int main(){
     signal(SIGSEGV,handler);
     MCD::mCountDown mc(1);
-    std::vector<std::shared_ptr<THD::mThread> > vc;
+    std::vector<std::shared_ptr<BASE::mThread> > vc;
     for(int i=0;i<10;i++){
         std::cout<<"start thread"<<std::endl;
-        vc.push_back(std::shared_ptr<THD::mThread>(new THD::mThread(std::bind(testFunc,std::ref(mc)),(std::string("thread")+std::to_string(i)).c_str())));
-        //THD::mThread t1(std::bind(testFunc,std::ref(mc)),(std::string("thread")+std::to_string(i)).c_str());
+        vc.push_back(std::shared_ptr<BASE::mThread>(new BASE::mThread(std::bind(testFunc,std::ref(mc)),(std::string("thread")+std::to_string(i)).c_str())));
+        //BASE::mThread t1(std::bind(testFunc,std::ref(mc)),(std::string("thread")+std::to_string(i)).c_str());
         vc.back()->start();
     }
     sleep(10);
     std::cout<<"start wait"<<std::endl;
     mc.countDown();
-    for_each(vc.begin(),vc.end(),[](std::shared_ptr<THD::mThread> t){t->join();});
+    for_each(vc.begin(),vc.end(),[](std::shared_ptr<BASE::mThread> t){t->join();});
 
     return 0;
 }

@@ -124,17 +124,95 @@ netclient/fast:
 .PHONY : netclient/fast
 
 #=============================================================================
-# Target rules for targets named thread_test
+# Target rules for targets named ThreadLocal_test
 
 # Build rule for target.
-thread_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 thread_test
-.PHONY : thread_test
+ThreadLocal_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ThreadLocal_test
+.PHONY : ThreadLocal_test
 
 # fast build rule for target.
-thread_test/fast:
-	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/build
-.PHONY : thread_test/fast
+ThreadLocal_test/fast:
+	$(MAKE) -f CMakeFiles/ThreadLocal_test.dir/build.make CMakeFiles/ThreadLocal_test.dir/build
+.PHONY : ThreadLocal_test/fast
+
+#=============================================================================
+# Target rules for targets named Singleton_test
+
+# Build rule for target.
+Singleton_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Singleton_test
+.PHONY : Singleton_test
+
+# fast build rule for target.
+Singleton_test/fast:
+	$(MAKE) -f CMakeFiles/Singleton_test.dir/build.make CMakeFiles/Singleton_test.dir/build
+.PHONY : Singleton_test/fast
+
+#=============================================================================
+# Target rules for targets named ThreadPool_test
+
+# Build rule for target.
+ThreadPool_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ThreadPool_test
+.PHONY : ThreadPool_test
+
+# fast build rule for target.
+ThreadPool_test/fast:
+	$(MAKE) -f CMakeFiles/ThreadPool_test.dir/build.make CMakeFiles/ThreadPool_test.dir/build
+.PHONY : ThreadPool_test/fast
+
+#=============================================================================
+# Target rules for targets named BoundBlockQueue_test
+
+# Build rule for target.
+BoundBlockQueue_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BoundBlockQueue_test
+.PHONY : BoundBlockQueue_test
+
+# fast build rule for target.
+BoundBlockQueue_test/fast:
+	$(MAKE) -f CMakeFiles/BoundBlockQueue_test.dir/build.make CMakeFiles/BoundBlockQueue_test.dir/build
+.PHONY : BoundBlockQueue_test/fast
+
+#=============================================================================
+# Target rules for targets named EventLoopThread_test
+
+# Build rule for target.
+EventLoopThread_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EventLoopThread_test
+.PHONY : EventLoopThread_test
+
+# fast build rule for target.
+EventLoopThread_test/fast:
+	$(MAKE) -f CMakeFiles/EventLoopThread_test.dir/build.make CMakeFiles/EventLoopThread_test.dir/build
+.PHONY : EventLoopThread_test/fast
+
+#=============================================================================
+# Target rules for targets named BlockingQueue_test
+
+# Build rule for target.
+BlockingQueue_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BlockingQueue_test
+.PHONY : BlockingQueue_test
+
+# fast build rule for target.
+BlockingQueue_test/fast:
+	$(MAKE) -f CMakeFiles/BlockingQueue_test.dir/build.make CMakeFiles/BlockingQueue_test.dir/build
+.PHONY : BlockingQueue_test/fast
+
+#=============================================================================
+# Target rules for targets named countDown_test
+
+# Build rule for target.
+countDown_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countDown_test
+.PHONY : countDown_test
+
+# fast build rule for target.
+countDown_test/fast:
+	$(MAKE) -f CMakeFiles/countDown_test.dir/build.make CMakeFiles/countDown_test.dir/build
+.PHONY : countDown_test/fast
 
 #=============================================================================
 # Target rules for targets named t
@@ -150,6 +228,45 @@ t/fast:
 .PHONY : t/fast
 
 #=============================================================================
+# Target rules for targets named mutex_test
+
+# Build rule for target.
+mutex_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mutex_test
+.PHONY : mutex_test
+
+# fast build rule for target.
+mutex_test/fast:
+	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/build
+.PHONY : mutex_test/fast
+
+#=============================================================================
+# Target rules for targets named thread_test
+
+# Build rule for target.
+thread_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 thread_test
+.PHONY : thread_test
+
+# fast build rule for target.
+thread_test/fast:
+	$(MAKE) -f CMakeFiles/thread_test.dir/build.make CMakeFiles/thread_test.dir/build
+.PHONY : thread_test/fast
+
+#=============================================================================
+# Target rules for targets named EventLoop_test
+
+# Build rule for target.
+EventLoop_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EventLoop_test
+.PHONY : EventLoop_test
+
+# fast build rule for target.
+EventLoop_test/fast:
+	$(MAKE) -f CMakeFiles/EventLoop_test.dir/build.make CMakeFiles/EventLoop_test.dir/build
+.PHONY : EventLoop_test/fast
+
+#=============================================================================
 # Target rules for targets named epollsev
 
 # Build rule for target.
@@ -161,6 +278,208 @@ epollsev: cmake_check_build_system
 epollsev/fast:
 	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/build
 .PHONY : epollsev/fast
+
+#=============================================================================
+# Target rules for targets named exception_test
+
+# Build rule for target.
+exception_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exception_test
+.PHONY : exception_test
+
+# fast build rule for target.
+exception_test/fast:
+	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/build
+.PHONY : exception_test/fast
+
+BlockingQueue_test.o: BlockingQueue_test.cpp.o
+
+.PHONY : BlockingQueue_test.o
+
+# target to build an object file
+BlockingQueue_test.cpp.o:
+	$(MAKE) -f CMakeFiles/BlockingQueue_test.dir/build.make CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.o
+.PHONY : BlockingQueue_test.cpp.o
+
+BlockingQueue_test.i: BlockingQueue_test.cpp.i
+
+.PHONY : BlockingQueue_test.i
+
+# target to preprocess a source file
+BlockingQueue_test.cpp.i:
+	$(MAKE) -f CMakeFiles/BlockingQueue_test.dir/build.make CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.i
+.PHONY : BlockingQueue_test.cpp.i
+
+BlockingQueue_test.s: BlockingQueue_test.cpp.s
+
+.PHONY : BlockingQueue_test.s
+
+# target to generate assembly for a file
+BlockingQueue_test.cpp.s:
+	$(MAKE) -f CMakeFiles/BlockingQueue_test.dir/build.make CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.s
+.PHONY : BlockingQueue_test.cpp.s
+
+BoundBlockQueue_test.o: BoundBlockQueue_test.cpp.o
+
+.PHONY : BoundBlockQueue_test.o
+
+# target to build an object file
+BoundBlockQueue_test.cpp.o:
+	$(MAKE) -f CMakeFiles/BoundBlockQueue_test.dir/build.make CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.o
+.PHONY : BoundBlockQueue_test.cpp.o
+
+BoundBlockQueue_test.i: BoundBlockQueue_test.cpp.i
+
+.PHONY : BoundBlockQueue_test.i
+
+# target to preprocess a source file
+BoundBlockQueue_test.cpp.i:
+	$(MAKE) -f CMakeFiles/BoundBlockQueue_test.dir/build.make CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.i
+.PHONY : BoundBlockQueue_test.cpp.i
+
+BoundBlockQueue_test.s: BoundBlockQueue_test.cpp.s
+
+.PHONY : BoundBlockQueue_test.s
+
+# target to generate assembly for a file
+BoundBlockQueue_test.cpp.s:
+	$(MAKE) -f CMakeFiles/BoundBlockQueue_test.dir/build.make CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.s
+.PHONY : BoundBlockQueue_test.cpp.s
+
+EventLoopThread_test.o: EventLoopThread_test.cpp.o
+
+.PHONY : EventLoopThread_test.o
+
+# target to build an object file
+EventLoopThread_test.cpp.o:
+	$(MAKE) -f CMakeFiles/EventLoopThread_test.dir/build.make CMakeFiles/EventLoopThread_test.dir/EventLoopThread_test.cpp.o
+.PHONY : EventLoopThread_test.cpp.o
+
+EventLoopThread_test.i: EventLoopThread_test.cpp.i
+
+.PHONY : EventLoopThread_test.i
+
+# target to preprocess a source file
+EventLoopThread_test.cpp.i:
+	$(MAKE) -f CMakeFiles/EventLoopThread_test.dir/build.make CMakeFiles/EventLoopThread_test.dir/EventLoopThread_test.cpp.i
+.PHONY : EventLoopThread_test.cpp.i
+
+EventLoopThread_test.s: EventLoopThread_test.cpp.s
+
+.PHONY : EventLoopThread_test.s
+
+# target to generate assembly for a file
+EventLoopThread_test.cpp.s:
+	$(MAKE) -f CMakeFiles/EventLoopThread_test.dir/build.make CMakeFiles/EventLoopThread_test.dir/EventLoopThread_test.cpp.s
+.PHONY : EventLoopThread_test.cpp.s
+
+EventLoop_test.o: EventLoop_test.cpp.o
+
+.PHONY : EventLoop_test.o
+
+# target to build an object file
+EventLoop_test.cpp.o:
+	$(MAKE) -f CMakeFiles/EventLoop_test.dir/build.make CMakeFiles/EventLoop_test.dir/EventLoop_test.cpp.o
+.PHONY : EventLoop_test.cpp.o
+
+EventLoop_test.i: EventLoop_test.cpp.i
+
+.PHONY : EventLoop_test.i
+
+# target to preprocess a source file
+EventLoop_test.cpp.i:
+	$(MAKE) -f CMakeFiles/EventLoop_test.dir/build.make CMakeFiles/EventLoop_test.dir/EventLoop_test.cpp.i
+.PHONY : EventLoop_test.cpp.i
+
+EventLoop_test.s: EventLoop_test.cpp.s
+
+.PHONY : EventLoop_test.s
+
+# target to generate assembly for a file
+EventLoop_test.cpp.s:
+	$(MAKE) -f CMakeFiles/EventLoop_test.dir/build.make CMakeFiles/EventLoop_test.dir/EventLoop_test.cpp.s
+.PHONY : EventLoop_test.cpp.s
+
+Singleton_test.o: Singleton_test.cpp.o
+
+.PHONY : Singleton_test.o
+
+# target to build an object file
+Singleton_test.cpp.o:
+	$(MAKE) -f CMakeFiles/Singleton_test.dir/build.make CMakeFiles/Singleton_test.dir/Singleton_test.cpp.o
+.PHONY : Singleton_test.cpp.o
+
+Singleton_test.i: Singleton_test.cpp.i
+
+.PHONY : Singleton_test.i
+
+# target to preprocess a source file
+Singleton_test.cpp.i:
+	$(MAKE) -f CMakeFiles/Singleton_test.dir/build.make CMakeFiles/Singleton_test.dir/Singleton_test.cpp.i
+.PHONY : Singleton_test.cpp.i
+
+Singleton_test.s: Singleton_test.cpp.s
+
+.PHONY : Singleton_test.s
+
+# target to generate assembly for a file
+Singleton_test.cpp.s:
+	$(MAKE) -f CMakeFiles/Singleton_test.dir/build.make CMakeFiles/Singleton_test.dir/Singleton_test.cpp.s
+.PHONY : Singleton_test.cpp.s
+
+ThreadLocal_test.o: ThreadLocal_test.cpp.o
+
+.PHONY : ThreadLocal_test.o
+
+# target to build an object file
+ThreadLocal_test.cpp.o:
+	$(MAKE) -f CMakeFiles/ThreadLocal_test.dir/build.make CMakeFiles/ThreadLocal_test.dir/ThreadLocal_test.cpp.o
+.PHONY : ThreadLocal_test.cpp.o
+
+ThreadLocal_test.i: ThreadLocal_test.cpp.i
+
+.PHONY : ThreadLocal_test.i
+
+# target to preprocess a source file
+ThreadLocal_test.cpp.i:
+	$(MAKE) -f CMakeFiles/ThreadLocal_test.dir/build.make CMakeFiles/ThreadLocal_test.dir/ThreadLocal_test.cpp.i
+.PHONY : ThreadLocal_test.cpp.i
+
+ThreadLocal_test.s: ThreadLocal_test.cpp.s
+
+.PHONY : ThreadLocal_test.s
+
+# target to generate assembly for a file
+ThreadLocal_test.cpp.s:
+	$(MAKE) -f CMakeFiles/ThreadLocal_test.dir/build.make CMakeFiles/ThreadLocal_test.dir/ThreadLocal_test.cpp.s
+.PHONY : ThreadLocal_test.cpp.s
+
+ThreadPool_test.o: ThreadPool_test.cpp.o
+
+.PHONY : ThreadPool_test.o
+
+# target to build an object file
+ThreadPool_test.cpp.o:
+	$(MAKE) -f CMakeFiles/ThreadPool_test.dir/build.make CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.o
+.PHONY : ThreadPool_test.cpp.o
+
+ThreadPool_test.i: ThreadPool_test.cpp.i
+
+.PHONY : ThreadPool_test.i
+
+# target to preprocess a source file
+ThreadPool_test.cpp.i:
+	$(MAKE) -f CMakeFiles/ThreadPool_test.dir/build.make CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.i
+.PHONY : ThreadPool_test.cpp.i
+
+ThreadPool_test.s: ThreadPool_test.cpp.s
+
+.PHONY : ThreadPool_test.s
+
+# target to generate assembly for a file
+ThreadPool_test.cpp.s:
+	$(MAKE) -f CMakeFiles/ThreadPool_test.dir/build.make CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.s
+.PHONY : ThreadPool_test.cpp.s
 
 client.o: client.cpp.o
 
@@ -189,6 +508,33 @@ client.cpp.s:
 	$(MAKE) -f CMakeFiles/netclient.dir/build.make CMakeFiles/netclient.dir/client.cpp.s
 .PHONY : client.cpp.s
 
+countDown_test.o: countDown_test.cpp.o
+
+.PHONY : countDown_test.o
+
+# target to build an object file
+countDown_test.cpp.o:
+	$(MAKE) -f CMakeFiles/countDown_test.dir/build.make CMakeFiles/countDown_test.dir/countDown_test.cpp.o
+.PHONY : countDown_test.cpp.o
+
+countDown_test.i: countDown_test.cpp.i
+
+.PHONY : countDown_test.i
+
+# target to preprocess a source file
+countDown_test.cpp.i:
+	$(MAKE) -f CMakeFiles/countDown_test.dir/build.make CMakeFiles/countDown_test.dir/countDown_test.cpp.i
+.PHONY : countDown_test.cpp.i
+
+countDown_test.s: countDown_test.cpp.s
+
+.PHONY : countDown_test.s
+
+# target to generate assembly for a file
+countDown_test.cpp.s:
+	$(MAKE) -f CMakeFiles/countDown_test.dir/build.make CMakeFiles/countDown_test.dir/countDown_test.cpp.s
+.PHONY : countDown_test.cpp.s
+
 epollsev_test.o: epollsev_test.cpp.o
 
 .PHONY : epollsev_test.o
@@ -216,59 +562,113 @@ epollsev_test.cpp.s:
 	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/epollsev_test.cpp.s
 .PHONY : epollsev_test.cpp.s
 
-home/fang/work/template/0223/src/epollsev.o: home/fang/work/template/0223/src/epollsev.cpp.o
+exception_test.o: exception_test.cpp.o
 
-.PHONY : home/fang/work/template/0223/src/epollsev.o
-
-# target to build an object file
-home/fang/work/template/0223/src/epollsev.cpp.o:
-	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o
-.PHONY : home/fang/work/template/0223/src/epollsev.cpp.o
-
-home/fang/work/template/0223/src/epollsev.i: home/fang/work/template/0223/src/epollsev.cpp.i
-
-.PHONY : home/fang/work/template/0223/src/epollsev.i
-
-# target to preprocess a source file
-home/fang/work/template/0223/src/epollsev.cpp.i:
-	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.i
-.PHONY : home/fang/work/template/0223/src/epollsev.cpp.i
-
-home/fang/work/template/0223/src/epollsev.s: home/fang/work/template/0223/src/epollsev.cpp.s
-
-.PHONY : home/fang/work/template/0223/src/epollsev.s
-
-# target to generate assembly for a file
-home/fang/work/template/0223/src/epollsev.cpp.s:
-	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.s
-.PHONY : home/fang/work/template/0223/src/epollsev.cpp.s
-
-home/fang/work/template/0223/src/log.o: home/fang/work/template/0223/src/log.cpp.o
-
-.PHONY : home/fang/work/template/0223/src/log.o
+.PHONY : exception_test.o
 
 # target to build an object file
-home/fang/work/template/0223/src/log.cpp.o:
-	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o
-.PHONY : home/fang/work/template/0223/src/log.cpp.o
+exception_test.cpp.o:
+	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/exception_test.cpp.o
+.PHONY : exception_test.cpp.o
 
-home/fang/work/template/0223/src/log.i: home/fang/work/template/0223/src/log.cpp.i
+exception_test.i: exception_test.cpp.i
 
-.PHONY : home/fang/work/template/0223/src/log.i
+.PHONY : exception_test.i
 
 # target to preprocess a source file
-home/fang/work/template/0223/src/log.cpp.i:
-	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.i
-.PHONY : home/fang/work/template/0223/src/log.cpp.i
+exception_test.cpp.i:
+	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/exception_test.cpp.i
+.PHONY : exception_test.cpp.i
 
-home/fang/work/template/0223/src/log.s: home/fang/work/template/0223/src/log.cpp.s
+exception_test.s: exception_test.cpp.s
 
-.PHONY : home/fang/work/template/0223/src/log.s
+.PHONY : exception_test.s
 
 # target to generate assembly for a file
-home/fang/work/template/0223/src/log.cpp.s:
-	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.s
-.PHONY : home/fang/work/template/0223/src/log.cpp.s
+exception_test.cpp.s:
+	$(MAKE) -f CMakeFiles/exception_test.dir/build.make CMakeFiles/exception_test.dir/exception_test.cpp.s
+.PHONY : exception_test.cpp.s
+
+home/fang/work/template/0223/src/base/epollsev.o: home/fang/work/template/0223/src/base/epollsev.cpp.o
+
+.PHONY : home/fang/work/template/0223/src/base/epollsev.o
+
+# target to build an object file
+home/fang/work/template/0223/src/base/epollsev.cpp.o:
+	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o
+.PHONY : home/fang/work/template/0223/src/base/epollsev.cpp.o
+
+home/fang/work/template/0223/src/base/epollsev.i: home/fang/work/template/0223/src/base/epollsev.cpp.i
+
+.PHONY : home/fang/work/template/0223/src/base/epollsev.i
+
+# target to preprocess a source file
+home/fang/work/template/0223/src/base/epollsev.cpp.i:
+	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.i
+.PHONY : home/fang/work/template/0223/src/base/epollsev.cpp.i
+
+home/fang/work/template/0223/src/base/epollsev.s: home/fang/work/template/0223/src/base/epollsev.cpp.s
+
+.PHONY : home/fang/work/template/0223/src/base/epollsev.s
+
+# target to generate assembly for a file
+home/fang/work/template/0223/src/base/epollsev.cpp.s:
+	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.s
+.PHONY : home/fang/work/template/0223/src/base/epollsev.cpp.s
+
+home/fang/work/template/0223/src/base/log.o: home/fang/work/template/0223/src/base/log.cpp.o
+
+.PHONY : home/fang/work/template/0223/src/base/log.o
+
+# target to build an object file
+home/fang/work/template/0223/src/base/log.cpp.o:
+	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o
+.PHONY : home/fang/work/template/0223/src/base/log.cpp.o
+
+home/fang/work/template/0223/src/base/log.i: home/fang/work/template/0223/src/base/log.cpp.i
+
+.PHONY : home/fang/work/template/0223/src/base/log.i
+
+# target to preprocess a source file
+home/fang/work/template/0223/src/base/log.cpp.i:
+	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.i
+.PHONY : home/fang/work/template/0223/src/base/log.cpp.i
+
+home/fang/work/template/0223/src/base/log.s: home/fang/work/template/0223/src/base/log.cpp.s
+
+.PHONY : home/fang/work/template/0223/src/base/log.s
+
+# target to generate assembly for a file
+home/fang/work/template/0223/src/base/log.cpp.s:
+	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.s
+.PHONY : home/fang/work/template/0223/src/base/log.cpp.s
+
+mutex_test.o: mutex_test.cpp.o
+
+.PHONY : mutex_test.o
+
+# target to build an object file
+mutex_test.cpp.o:
+	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/mutex_test.cpp.o
+.PHONY : mutex_test.cpp.o
+
+mutex_test.i: mutex_test.cpp.i
+
+.PHONY : mutex_test.i
+
+# target to preprocess a source file
+mutex_test.cpp.i:
+	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/mutex_test.cpp.i
+.PHONY : mutex_test.cpp.i
+
+mutex_test.s: mutex_test.cpp.s
+
+.PHONY : mutex_test.s
+
+# target to generate assembly for a file
+mutex_test.cpp.s:
+	$(MAKE) -f CMakeFiles/mutex_test.dir/build.make CMakeFiles/mutex_test.dir/mutex_test.cpp.s
+.PHONY : mutex_test.cpp.s
 
 thread_test.o: thread_test.cc.o
 
@@ -330,24 +730,64 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... netclient"
-	@echo "... thread_test"
-	@echo "... t"
+	@echo "... ThreadLocal_test"
+	@echo "... Singleton_test"
+	@echo "... ThreadPool_test"
+	@echo "... rebuild_cache"
+	@echo "... BoundBlockQueue_test"
+	@echo "... EventLoopThread_test"
+	@echo "... BlockingQueue_test"
+	@echo "... countDown_test"
 	@echo "... edit_cache"
+	@echo "... t"
+	@echo "... mutex_test"
+	@echo "... thread_test"
+	@echo "... EventLoop_test"
 	@echo "... epollsev"
+	@echo "... exception_test"
+	@echo "... BlockingQueue_test.o"
+	@echo "... BlockingQueue_test.i"
+	@echo "... BlockingQueue_test.s"
+	@echo "... BoundBlockQueue_test.o"
+	@echo "... BoundBlockQueue_test.i"
+	@echo "... BoundBlockQueue_test.s"
+	@echo "... EventLoopThread_test.o"
+	@echo "... EventLoopThread_test.i"
+	@echo "... EventLoopThread_test.s"
+	@echo "... EventLoop_test.o"
+	@echo "... EventLoop_test.i"
+	@echo "... EventLoop_test.s"
+	@echo "... Singleton_test.o"
+	@echo "... Singleton_test.i"
+	@echo "... Singleton_test.s"
+	@echo "... ThreadLocal_test.o"
+	@echo "... ThreadLocal_test.i"
+	@echo "... ThreadLocal_test.s"
+	@echo "... ThreadPool_test.o"
+	@echo "... ThreadPool_test.i"
+	@echo "... ThreadPool_test.s"
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
+	@echo "... countDown_test.o"
+	@echo "... countDown_test.i"
+	@echo "... countDown_test.s"
 	@echo "... epollsev_test.o"
 	@echo "... epollsev_test.i"
 	@echo "... epollsev_test.s"
-	@echo "... home/fang/work/template/0223/src/epollsev.o"
-	@echo "... home/fang/work/template/0223/src/epollsev.i"
-	@echo "... home/fang/work/template/0223/src/epollsev.s"
-	@echo "... home/fang/work/template/0223/src/log.o"
-	@echo "... home/fang/work/template/0223/src/log.i"
-	@echo "... home/fang/work/template/0223/src/log.s"
+	@echo "... exception_test.o"
+	@echo "... exception_test.i"
+	@echo "... exception_test.s"
+	@echo "... home/fang/work/template/0223/src/base/epollsev.o"
+	@echo "... home/fang/work/template/0223/src/base/epollsev.i"
+	@echo "... home/fang/work/template/0223/src/base/epollsev.s"
+	@echo "... home/fang/work/template/0223/src/base/log.o"
+	@echo "... home/fang/work/template/0223/src/base/log.i"
+	@echo "... home/fang/work/template/0223/src/base/log.s"
+	@echo "... mutex_test.o"
+	@echo "... mutex_test.i"
+	@echo "... mutex_test.s"
 	@echo "... thread_test.o"
 	@echo "... thread_test.i"
 	@echo "... thread_test.s"

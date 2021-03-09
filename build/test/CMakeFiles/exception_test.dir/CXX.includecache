@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../test/../src/include/mException.h
+../test/../src/base/include/mException.h
 exception
 -
 string

@@ -1,1 +1,1 @@
-/usr/bin/g++-7  -g -Wall -Wextra -std=c++11 -g  -rdynamic CMakeFiles/netclient.dir/client.cpp.o  -o ../../bin/netclient  -L/home/fang/work/template/0223/lib  -L/home/fang/work/template/0223/test/./../lib  -L/home/fang/work/template/0223/test/../build/src 
+/usr/bin/g++-7  -g -Wall -Wextra -std=c++11 -g  -rdynamic CMakeFiles/netclient.dir/client.cpp.o  -o ../../bin/netclient  -L/home/fang/work/template/0223/lib  -L/home/fang/work/template/0223/test/./../lib 

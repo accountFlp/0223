@@ -956,57 +956,112 @@ clean: CMakeFiles/ExperimentalBuild.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src
+# Directory level rules for directory src/base
 
 # Convenience name for "all" pass in the directory.
-src/all: src/CMakeFiles/base.dir/all
+src/base/all: src/base/CMakeFiles/base.dir/all
 
-.PHONY : src/all
+.PHONY : src/base/all
 
 # Convenience name for "clean" pass in the directory.
-src/clean: src/CMakeFiles/base.dir/clean
+src/base/clean: src/base/CMakeFiles/base.dir/clean
 
-.PHONY : src/clean
+.PHONY : src/base/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src/preinstall:
+src/base/preinstall:
 
-.PHONY : src/preinstall
+.PHONY : src/base/preinstall
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/base.dir
+# Target rules for target src/base/CMakeFiles/base.dir
 
 # All Build rule for target.
-src/CMakeFiles/base.dir/all:
-	$(MAKE) -f src/CMakeFiles/base.dir/build.make src/CMakeFiles/base.dir/depend
-	$(MAKE) -f src/CMakeFiles/base.dir/build.make src/CMakeFiles/base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21,22,23,24,25 "Built target base"
-.PHONY : src/CMakeFiles/base.dir/all
+src/base/CMakeFiles/base.dir/all:
+	$(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/depend
+	$(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target base"
+.PHONY : src/base/CMakeFiles/base.dir/all
 
 # Include target in all.
-all: src/CMakeFiles/base.dir/all
+all: src/base/CMakeFiles/base.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/base.dir/rule: cmake_check_build_system
+src/base/CMakeFiles/base.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 15
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/base.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/base.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/base.dir/rule
+.PHONY : src/base/CMakeFiles/base.dir/rule
 
 # Convenience name for target.
-base: src/CMakeFiles/base.dir/rule
+base: src/base/CMakeFiles/base.dir/rule
 
 .PHONY : base
 
 # clean rule for target.
-src/CMakeFiles/base.dir/clean:
-	$(MAKE) -f src/CMakeFiles/base.dir/build.make src/CMakeFiles/base.dir/clean
-.PHONY : src/CMakeFiles/base.dir/clean
+src/base/CMakeFiles/base.dir/clean:
+	$(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/clean
+.PHONY : src/base/CMakeFiles/base.dir/clean
 
 # clean rule for target.
-clean: src/CMakeFiles/base.dir/clean
+clean: src/base/CMakeFiles/base.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/net
+
+# Convenience name for "all" pass in the directory.
+src/net/all: src/net/CMakeFiles/net.dir/all
+
+.PHONY : src/net/all
+
+# Convenience name for "clean" pass in the directory.
+src/net/clean: src/net/CMakeFiles/net.dir/clean
+
+.PHONY : src/net/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/net/preinstall:
+
+.PHONY : src/net/preinstall
+
+#=============================================================================
+# Target rules for target src/net/CMakeFiles/net.dir
+
+# All Build rule for target.
+src/net/CMakeFiles/net.dir/all:
+	$(MAKE) -f src/net/CMakeFiles/net.dir/build.make src/net/CMakeFiles/net.dir/depend
+	$(MAKE) -f src/net/CMakeFiles/net.dir/build.make src/net/CMakeFiles/net.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48 "Built target net"
+.PHONY : src/net/CMakeFiles/net.dir/all
+
+# Include target in all.
+all: src/net/CMakeFiles/net.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/net/CMakeFiles/net.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 src/net/CMakeFiles/net.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
+.PHONY : src/net/CMakeFiles/net.dir/rule
+
+# Convenience name for target.
+net: src/net/CMakeFiles/net.dir/rule
+
+.PHONY : net
+
+# clean rule for target.
+src/net/CMakeFiles/net.dir/clean:
+	$(MAKE) -f src/net/CMakeFiles/net.dir/build.make src/net/CMakeFiles/net.dir/clean
+.PHONY : src/net/CMakeFiles/net.dir/clean
+
+# clean rule for target.
+clean: src/net/CMakeFiles/net.dir/clean
 
 .PHONY : clean
 
@@ -1015,33 +1070,37 @@ clean: src/CMakeFiles/base.dir/clean
 
 # Convenience name for "all" pass in the directory.
 test/all: test/CMakeFiles/exception_test.dir/all
+test/all: test/CMakeFiles/EventLoop_test.dir/all
 test/all: test/CMakeFiles/epollsev.dir/all
 test/all: test/CMakeFiles/thread_test.dir/all
+test/all: test/CMakeFiles/EventLoopThread_test.dir/all
+test/all: test/CMakeFiles/BlockingQueue_test.dir/all
 test/all: test/CMakeFiles/mutex_test.dir/all
 test/all: test/CMakeFiles/t.dir/all
 test/all: test/CMakeFiles/countDown_test.dir/all
-test/all: test/CMakeFiles/BlockingQueue_test.dir/all
 test/all: test/CMakeFiles/BoundBlockQueue_test.dir/all
+test/all: test/CMakeFiles/ThreadPool_test.dir/all
 test/all: test/CMakeFiles/Singleton_test.dir/all
 test/all: test/CMakeFiles/ThreadLocal_test.dir/all
 test/all: test/CMakeFiles/netclient.dir/all
-test/all: test/CMakeFiles/ThreadPool_test.dir/all
 
 .PHONY : test/all
 
 # Convenience name for "clean" pass in the directory.
 test/clean: test/CMakeFiles/exception_test.dir/clean
+test/clean: test/CMakeFiles/EventLoop_test.dir/clean
 test/clean: test/CMakeFiles/epollsev.dir/clean
 test/clean: test/CMakeFiles/thread_test.dir/clean
+test/clean: test/CMakeFiles/EventLoopThread_test.dir/clean
+test/clean: test/CMakeFiles/BlockingQueue_test.dir/clean
 test/clean: test/CMakeFiles/mutex_test.dir/clean
 test/clean: test/CMakeFiles/t.dir/clean
 test/clean: test/CMakeFiles/countDown_test.dir/clean
-test/clean: test/CMakeFiles/BlockingQueue_test.dir/clean
 test/clean: test/CMakeFiles/BoundBlockQueue_test.dir/clean
+test/clean: test/CMakeFiles/ThreadPool_test.dir/clean
 test/clean: test/CMakeFiles/Singleton_test.dir/clean
 test/clean: test/CMakeFiles/ThreadLocal_test.dir/clean
 test/clean: test/CMakeFiles/netclient.dir/clean
-test/clean: test/CMakeFiles/ThreadPool_test.dir/clean
 
 .PHONY : test/clean
 
@@ -1057,7 +1116,7 @@ test/preinstall:
 test/CMakeFiles/exception_test.dir/all:
 	$(MAKE) -f test/CMakeFiles/exception_test.dir/build.make test/CMakeFiles/exception_test.dir/depend
 	$(MAKE) -f test/CMakeFiles/exception_test.dir/build.make test/CMakeFiles/exception_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=32,33 "Built target exception_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=36,37 "Built target exception_test"
 .PHONY : test/CMakeFiles/exception_test.dir/all
 
 # Include target in all.
@@ -1088,13 +1147,50 @@ clean: test/CMakeFiles/exception_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target test/CMakeFiles/EventLoop_test.dir
+
+# All Build rule for target.
+test/CMakeFiles/EventLoop_test.dir/all:
+	$(MAKE) -f test/CMakeFiles/EventLoop_test.dir/build.make test/CMakeFiles/EventLoop_test.dir/depend
+	$(MAKE) -f test/CMakeFiles/EventLoop_test.dir/build.make test/CMakeFiles/EventLoop_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=7,8 "Built target EventLoop_test"
+.PHONY : test/CMakeFiles/EventLoop_test.dir/all
+
+# Include target in all.
+all: test/CMakeFiles/EventLoop_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/EventLoop_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/EventLoop_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/EventLoop_test.dir/rule
+
+# Convenience name for target.
+EventLoop_test: test/CMakeFiles/EventLoop_test.dir/rule
+
+.PHONY : EventLoop_test
+
+# clean rule for target.
+test/CMakeFiles/EventLoop_test.dir/clean:
+	$(MAKE) -f test/CMakeFiles/EventLoop_test.dir/build.make test/CMakeFiles/EventLoop_test.dir/clean
+.PHONY : test/CMakeFiles/EventLoop_test.dir/clean
+
+# clean rule for target.
+clean: test/CMakeFiles/EventLoop_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target test/CMakeFiles/epollsev.dir
 
 # All Build rule for target.
 test/CMakeFiles/epollsev.dir/all:
 	$(MAKE) -f test/CMakeFiles/epollsev.dir/build.make test/CMakeFiles/epollsev.dir/depend
 	$(MAKE) -f test/CMakeFiles/epollsev.dir/build.make test/CMakeFiles/epollsev.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=28,29,30,31 "Built target epollsev"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=32,33,34,35 "Built target epollsev"
 .PHONY : test/CMakeFiles/epollsev.dir/all
 
 # Include target in all.
@@ -1131,7 +1227,7 @@ clean: test/CMakeFiles/epollsev.dir/clean
 test/CMakeFiles/thread_test.dir/all:
 	$(MAKE) -f test/CMakeFiles/thread_test.dir/build.make test/CMakeFiles/thread_test.dir/depend
 	$(MAKE) -f test/CMakeFiles/thread_test.dir/build.make test/CMakeFiles/thread_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=40,41 "Built target thread_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=53,54 "Built target thread_test"
 .PHONY : test/CMakeFiles/thread_test.dir/all
 
 # Include target in all.
@@ -1162,113 +1258,39 @@ clean: test/CMakeFiles/thread_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/mutex_test.dir
+# Target rules for target test/CMakeFiles/EventLoopThread_test.dir
 
 # All Build rule for target.
-test/CMakeFiles/mutex_test.dir/all:
-	$(MAKE) -f test/CMakeFiles/mutex_test.dir/build.make test/CMakeFiles/mutex_test.dir/depend
-	$(MAKE) -f test/CMakeFiles/mutex_test.dir/build.make test/CMakeFiles/mutex_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=34,35 "Built target mutex_test"
-.PHONY : test/CMakeFiles/mutex_test.dir/all
+test/CMakeFiles/EventLoopThread_test.dir/all:
+	$(MAKE) -f test/CMakeFiles/EventLoopThread_test.dir/build.make test/CMakeFiles/EventLoopThread_test.dir/depend
+	$(MAKE) -f test/CMakeFiles/EventLoopThread_test.dir/build.make test/CMakeFiles/EventLoopThread_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=5,6 "Built target EventLoopThread_test"
+.PHONY : test/CMakeFiles/EventLoopThread_test.dir/all
 
 # Include target in all.
-all: test/CMakeFiles/mutex_test.dir/all
+all: test/CMakeFiles/EventLoopThread_test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/mutex_test.dir/rule: cmake_check_build_system
+test/CMakeFiles/EventLoopThread_test.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/mutex_test.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/EventLoopThread_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/mutex_test.dir/rule
+.PHONY : test/CMakeFiles/EventLoopThread_test.dir/rule
 
 # Convenience name for target.
-mutex_test: test/CMakeFiles/mutex_test.dir/rule
+EventLoopThread_test: test/CMakeFiles/EventLoopThread_test.dir/rule
 
-.PHONY : mutex_test
-
-# clean rule for target.
-test/CMakeFiles/mutex_test.dir/clean:
-	$(MAKE) -f test/CMakeFiles/mutex_test.dir/build.make test/CMakeFiles/mutex_test.dir/clean
-.PHONY : test/CMakeFiles/mutex_test.dir/clean
+.PHONY : EventLoopThread_test
 
 # clean rule for target.
-clean: test/CMakeFiles/mutex_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/t.dir
-
-# All Build rule for target.
-test/CMakeFiles/t.dir/all:
-	$(MAKE) -f test/CMakeFiles/t.dir/build.make test/CMakeFiles/t.dir/depend
-	$(MAKE) -f test/CMakeFiles/t.dir/build.make test/CMakeFiles/t.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=38,39 "Built target t"
-.PHONY : test/CMakeFiles/t.dir/all
-
-# Include target in all.
-all: test/CMakeFiles/t.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/t.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/t.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/t.dir/rule
-
-# Convenience name for target.
-t : test/CMakeFiles/t.dir/rule
-
-.PHONY : t
+test/CMakeFiles/EventLoopThread_test.dir/clean:
+	$(MAKE) -f test/CMakeFiles/EventLoopThread_test.dir/build.make test/CMakeFiles/EventLoopThread_test.dir/clean
+.PHONY : test/CMakeFiles/EventLoopThread_test.dir/clean
 
 # clean rule for target.
-test/CMakeFiles/t.dir/clean:
-	$(MAKE) -f test/CMakeFiles/t.dir/build.make test/CMakeFiles/t.dir/clean
-.PHONY : test/CMakeFiles/t.dir/clean
-
-# clean rule for target.
-clean: test/CMakeFiles/t.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/countDown_test.dir
-
-# All Build rule for target.
-test/CMakeFiles/countDown_test.dir/all:
-	$(MAKE) -f test/CMakeFiles/countDown_test.dir/build.make test/CMakeFiles/countDown_test.dir/depend
-	$(MAKE) -f test/CMakeFiles/countDown_test.dir/build.make test/CMakeFiles/countDown_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=26,27 "Built target countDown_test"
-.PHONY : test/CMakeFiles/countDown_test.dir/all
-
-# Include target in all.
-all: test/CMakeFiles/countDown_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/countDown_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/countDown_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/countDown_test.dir/rule
-
-# Convenience name for target.
-countDown_test: test/CMakeFiles/countDown_test.dir/rule
-
-.PHONY : countDown_test
-
-# clean rule for target.
-test/CMakeFiles/countDown_test.dir/clean:
-	$(MAKE) -f test/CMakeFiles/countDown_test.dir/build.make test/CMakeFiles/countDown_test.dir/clean
-.PHONY : test/CMakeFiles/countDown_test.dir/clean
-
-# clean rule for target.
-clean: test/CMakeFiles/countDown_test.dir/clean
+clean: test/CMakeFiles/EventLoopThread_test.dir/clean
 
 .PHONY : clean
 
@@ -1310,6 +1332,117 @@ clean: test/CMakeFiles/BlockingQueue_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target test/CMakeFiles/mutex_test.dir
+
+# All Build rule for target.
+test/CMakeFiles/mutex_test.dir/all:
+	$(MAKE) -f test/CMakeFiles/mutex_test.dir/build.make test/CMakeFiles/mutex_test.dir/depend
+	$(MAKE) -f test/CMakeFiles/mutex_test.dir/build.make test/CMakeFiles/mutex_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=38,39 "Built target mutex_test"
+.PHONY : test/CMakeFiles/mutex_test.dir/all
+
+# Include target in all.
+all: test/CMakeFiles/mutex_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/mutex_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/mutex_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/mutex_test.dir/rule
+
+# Convenience name for target.
+mutex_test: test/CMakeFiles/mutex_test.dir/rule
+
+.PHONY : mutex_test
+
+# clean rule for target.
+test/CMakeFiles/mutex_test.dir/clean:
+	$(MAKE) -f test/CMakeFiles/mutex_test.dir/build.make test/CMakeFiles/mutex_test.dir/clean
+.PHONY : test/CMakeFiles/mutex_test.dir/clean
+
+# clean rule for target.
+clean: test/CMakeFiles/mutex_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/t.dir
+
+# All Build rule for target.
+test/CMakeFiles/t.dir/all:
+	$(MAKE) -f test/CMakeFiles/t.dir/build.make test/CMakeFiles/t.dir/depend
+	$(MAKE) -f test/CMakeFiles/t.dir/build.make test/CMakeFiles/t.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=51,52 "Built target t"
+.PHONY : test/CMakeFiles/t.dir/all
+
+# Include target in all.
+all: test/CMakeFiles/t.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/t.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/t.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/t.dir/rule
+
+# Convenience name for target.
+t : test/CMakeFiles/t.dir/rule
+
+.PHONY : t
+
+# clean rule for target.
+test/CMakeFiles/t.dir/clean:
+	$(MAKE) -f test/CMakeFiles/t.dir/build.make test/CMakeFiles/t.dir/clean
+.PHONY : test/CMakeFiles/t.dir/clean
+
+# clean rule for target.
+clean: test/CMakeFiles/t.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/countDown_test.dir
+
+# All Build rule for target.
+test/CMakeFiles/countDown_test.dir/all:
+	$(MAKE) -f test/CMakeFiles/countDown_test.dir/build.make test/CMakeFiles/countDown_test.dir/depend
+	$(MAKE) -f test/CMakeFiles/countDown_test.dir/build.make test/CMakeFiles/countDown_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=30,31 "Built target countDown_test"
+.PHONY : test/CMakeFiles/countDown_test.dir/all
+
+# Include target in all.
+all: test/CMakeFiles/countDown_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/countDown_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/countDown_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/countDown_test.dir/rule
+
+# Convenience name for target.
+countDown_test: test/CMakeFiles/countDown_test.dir/rule
+
+.PHONY : countDown_test
+
+# clean rule for target.
+test/CMakeFiles/countDown_test.dir/clean:
+	$(MAKE) -f test/CMakeFiles/countDown_test.dir/build.make test/CMakeFiles/countDown_test.dir/clean
+.PHONY : test/CMakeFiles/countDown_test.dir/clean
+
+# clean rule for target.
+clean: test/CMakeFiles/countDown_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target test/CMakeFiles/BoundBlockQueue_test.dir
 
 # All Build rule for target.
@@ -1347,13 +1480,50 @@ clean: test/CMakeFiles/BoundBlockQueue_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target test/CMakeFiles/ThreadPool_test.dir
+
+# All Build rule for target.
+test/CMakeFiles/ThreadPool_test.dir/all:
+	$(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/depend
+	$(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=13,14 "Built target ThreadPool_test"
+.PHONY : test/CMakeFiles/ThreadPool_test.dir/all
+
+# Include target in all.
+all: test/CMakeFiles/ThreadPool_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/ThreadPool_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/ThreadPool_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/ThreadPool_test.dir/rule
+
+# Convenience name for target.
+ThreadPool_test: test/CMakeFiles/ThreadPool_test.dir/rule
+
+.PHONY : ThreadPool_test
+
+# clean rule for target.
+test/CMakeFiles/ThreadPool_test.dir/clean:
+	$(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/clean
+.PHONY : test/CMakeFiles/ThreadPool_test.dir/clean
+
+# clean rule for target.
+clean: test/CMakeFiles/ThreadPool_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target test/CMakeFiles/Singleton_test.dir
 
 # All Build rule for target.
 test/CMakeFiles/Singleton_test.dir/all:
 	$(MAKE) -f test/CMakeFiles/Singleton_test.dir/build.make test/CMakeFiles/Singleton_test.dir/depend
 	$(MAKE) -f test/CMakeFiles/Singleton_test.dir/build.make test/CMakeFiles/Singleton_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=5,6 "Built target Singleton_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=9,10 "Built target Singleton_test"
 .PHONY : test/CMakeFiles/Singleton_test.dir/all
 
 # Include target in all.
@@ -1390,7 +1560,7 @@ clean: test/CMakeFiles/Singleton_test.dir/clean
 test/CMakeFiles/ThreadLocal_test.dir/all:
 	$(MAKE) -f test/CMakeFiles/ThreadLocal_test.dir/build.make test/CMakeFiles/ThreadLocal_test.dir/depend
 	$(MAKE) -f test/CMakeFiles/ThreadLocal_test.dir/build.make test/CMakeFiles/ThreadLocal_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=7,8 "Built target ThreadLocal_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=11,12 "Built target ThreadLocal_test"
 .PHONY : test/CMakeFiles/ThreadLocal_test.dir/all
 
 # Include target in all.
@@ -1427,7 +1597,7 @@ clean: test/CMakeFiles/ThreadLocal_test.dir/clean
 test/CMakeFiles/netclient.dir/all:
 	$(MAKE) -f test/CMakeFiles/netclient.dir/build.make test/CMakeFiles/netclient.dir/depend
 	$(MAKE) -f test/CMakeFiles/netclient.dir/build.make test/CMakeFiles/netclient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=36,37 "Built target netclient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=49,50 "Built target netclient"
 .PHONY : test/CMakeFiles/netclient.dir/all
 
 # Include target in all.
@@ -1454,43 +1624,6 @@ test/CMakeFiles/netclient.dir/clean:
 
 # clean rule for target.
 clean: test/CMakeFiles/netclient.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/ThreadPool_test.dir
-
-# All Build rule for target.
-test/CMakeFiles/ThreadPool_test.dir/all:
-	$(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/depend
-	$(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fang/work/template/0223/build/CMakeFiles --progress-num=9,10 "Built target ThreadPool_test"
-.PHONY : test/CMakeFiles/ThreadPool_test.dir/all
-
-# Include target in all.
-all: test/CMakeFiles/ThreadPool_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/ThreadPool_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/ThreadPool_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fang/work/template/0223/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/ThreadPool_test.dir/rule
-
-# Convenience name for target.
-ThreadPool_test: test/CMakeFiles/ThreadPool_test.dir/rule
-
-.PHONY : ThreadPool_test
-
-# clean rule for target.
-test/CMakeFiles/ThreadPool_test.dir/clean:
-	$(MAKE) -f test/CMakeFiles/ThreadPool_test.dir/build.make test/CMakeFiles/ThreadPool_test.dir/clean
-.PHONY : test/CMakeFiles/ThreadPool_test.dir/clean
-
-# clean rule for target.
-clean: test/CMakeFiles/ThreadPool_test.dir/clean
 
 .PHONY : clean
 

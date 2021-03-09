@@ -291,19 +291,28 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 
 //Value Computed by CMake
-base_BINARY_DIR:STATIC=/home/fang/work/template/0223/build/src
+base_BINARY_DIR:STATIC=/home/fang/work/template/0223/build/src/base
 
 //Dependencies for the target
-base_LIB_DEPENDS:STATIC=general;/home/fang/work/template/0223/src/../src/build/libbase.a;general;libyaml-cpp.a;general;pthread;general;atomic;
+base_LIB_DEPENDS:STATIC=general;/home/fang/work/template/0223/src/base/../../lib/libbase.a;general;/home/fang/work/template/0223/src/base/../../lib/libnet.a;general;/home/fang/work/template/0223/src/base/../../lib/libspdlog.a;general;/home/fang/work/template/0223/src/base/../../lib/libyaml-cpp.a;general;libyaml-cpp.a;general;pthread;general;atomic;
 
 //Value Computed by CMake
-base_SOURCE_DIR:STATIC=/home/fang/work/template/0223/src
+base_SOURCE_DIR:STATIC=/home/fang/work/template/0223/src/base
 
 //Value Computed by CMake
 client_BINARY_DIR:STATIC=/home/fang/work/template/0223/build
 
 //Value Computed by CMake
 client_SOURCE_DIR:STATIC=/home/fang/work/template/0223
+
+//Value Computed by CMake
+net_BINARY_DIR:STATIC=/home/fang/work/template/0223/build/src/net
+
+//Dependencies for the target
+net_LIB_DEPENDS:STATIC=general;/home/fang/work/template/0223/src/net/../../lib/libbase.a;general;/home/fang/work/template/0223/src/net/../../lib/libnet.a;general;/home/fang/work/template/0223/src/net/../../lib/libspdlog.a;general;/home/fang/work/template/0223/src/net/../../lib/libyaml-cpp.a;general;libase.a;
+
+//Value Computed by CMake
+net_SOURCE_DIR:STATIC=/home/fang/work/template/0223/src/net
 
 //Value Computed by CMake
 test_BINARY_DIR:STATIC=/home/fang/work/template/0223/build/test
@@ -414,7 +423,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

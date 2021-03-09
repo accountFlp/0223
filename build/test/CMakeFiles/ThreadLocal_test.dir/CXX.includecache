@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../test/../src/include/mThreadLocal.h
+../test/../src/base/include/mThreadLocal.h
 thread
 -
 
-../test/../src/include/mthread.h
+../test/../src/base/include/mthread.h
 iostream
 -
 functional
@@ -20,6 +20,10 @@ algorithm
 atomic
 -
 thread
+-
+unistd.h
+-
+sys/syscall.h
 -
 
 /home/fang/work/template/0223/test/ThreadLocal_test.cpp

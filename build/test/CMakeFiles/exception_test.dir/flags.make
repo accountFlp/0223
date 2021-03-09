@@ -6,5 +6,5 @@ CXX_FLAGS = -g -Wall -Wextra -std=c++11 -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include 
+CXX_INCLUDES = -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net 
 

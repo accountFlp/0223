@@ -18,8 +18,8 @@ int testPop(C0223::BQueue<int> &bq){
 
 int main(){
     C0223::BQueue<int> bq;
-    THD::mThread t1(std::bind(testPush,std::ref(bq)),"pro");
-    THD::mThread t2(std::bind(testPop,std::ref(bq)),"cons");
+    BASE::mThread t1(std::bind(testPush,std::ref(bq)),"pro");
+    BASE::mThread t2(std::bind(testPop,std::ref(bq)),"cons");
     t1.start();
     t2.start();
     t1.join();

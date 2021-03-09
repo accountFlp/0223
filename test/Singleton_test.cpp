@@ -2,7 +2,7 @@
 #include "mthread.h"
 
 void test(){
-    std::cout<<"tid:"<<THD::currentPthreadID_<<"name"<<THD::currentPthreadName<<std::endl;
+    std::cout<<"tid:"<<BASE::currentPthreadID_<<"name"<<BASE::currentPthreadName<<std::endl;
 }
 class Dtest{
     public:

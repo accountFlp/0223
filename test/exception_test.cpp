@@ -3,10 +3,10 @@
 int main (){
     try{
         std::cout<<"start test exception"<<std::endl;
-        EXP::mexception e("test");
+        BASE::mexception e("test");
         throw  e;
     }
-    catch(EXP::mexception &e){
+    catch(BASE::mexception &e){
         std::cout<<e.what()<<std::endl;
         std::cout<<e.mstackTrace()<<std::endl;
     }

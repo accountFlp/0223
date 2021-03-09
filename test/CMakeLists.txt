@@ -10,23 +10,32 @@ set(CXX_FLAGS
 )
 string(REPLACE ";" " " CMAKE_CXX_FLAGS "${CXX_FLAGS}")
 
+
 #FILE(GLOB_RECURSE SC_FILES "/src/*.cpp" "../src/include/*.h" "../src/include/*hpp")
 
 set(src "./多态.cpp")
 add_executable(t ${src})
+
 #-L
 link_directories("./../lib")
-link_directories("../build/src")
+#link_directories("../build/src")
 #-I
-include_directories("../src/include")
+include_directories("../src/base/include")
 include_directories("../lib/include")
+include_directories("../src/net")
 # FILE(GLOB_RECURSE LIB "../lib/*.so" "../src/*.a")
 #-l
 # link_libraries(${LIB})
-set(epollsrc "./epollsev_test.cpp" "../src/log.cpp" "../src/include/server.hpp" "../src/epollsev.cpp")
+set(epollsrc "./epollsev_test.cpp" "../src//base/log.cpp" "../src/base/include/server.hpp" "../src/base/epollsev.cpp")
 add_executable(epollsev ${epollsrc})
 #-l
 target_link_libraries(epollsev "libyaml-cpp.a" "libspdlog.a")
+
+
+set(EventLoopThread_test_src "./EventLoopThread_test.cpp")
+add_executable(EventLoopThread_test ${EventLoopThread_test_src})
+target_link_libraries(EventLoopThread_test "libbase.a" "libnet.a" "pthread")
+
 
 set(thread_test_src "./thread_test.cc")
 add_executable(thread_test ${thread_test_src})
@@ -63,5 +72,12 @@ target_link_libraries(Singleton_test "libyaml-cpp.a" "libspdlog.a" "libbase.a" "
 set(ThreadLocal_test_src "./ThreadLocal_test.cpp")
 add_executable(ThreadLocal_test ${ThreadLocal_test_src})
 target_link_libraries(ThreadLocal_test "libyaml-cpp.a" "libspdlog.a" "libbase.a" "pthread")
+
+
+set(EventLoop_test_src "./EventLoop_test.cpp")
+add_executable(EventLoop_test ${EventLoop_test_src})
+target_link_libraries(EventLoop_test "libyaml-cpp.a" "libspdlog.a" "libbase.a" "pthread" "libnet.a")
+
+
 
 add_executable(netclient client.cpp)

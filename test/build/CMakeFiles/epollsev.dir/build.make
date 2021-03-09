@@ -81,66 +81,66 @@ CMakeFiles/epollsev.dir/epollsev_test.cpp.o.provides: CMakeFiles/epollsev.dir/ep
 CMakeFiles/epollsev.dir/epollsev_test.cpp.o.provides.build: CMakeFiles/epollsev.dir/epollsev_test.cpp.o
 
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o: CMakeFiles/epollsev.dir/flags.make
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o: /home/fang/work/template/0223/src/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fang/work/template/0223/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o -c /home/fang/work/template/0223/src/log.cpp
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o: CMakeFiles/epollsev.dir/flags.make
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o: /home/fang/work/template/0223/src/base/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fang/work/template/0223/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o -c /home/fang/work/template/0223/src/base/log.cpp
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fang/work/template/0223/src/log.cpp > CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.i
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fang/work/template/0223/src/base/log.cpp > CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.i
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fang/work/template/0223/src/log.cpp -o CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.s
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fang/work/template/0223/src/base/log.cpp -o CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.s
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o.requires:
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o.requires:
 
-.PHONY : CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o.requires
+.PHONY : CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o.requires
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o.provides: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o.requires
-	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o.provides.build
-.PHONY : CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o.provides
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o.provides: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o.requires
+	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o.provides.build
+.PHONY : CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o.provides
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o.provides.build: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o.provides.build: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o
 
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o: CMakeFiles/epollsev.dir/flags.make
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o: /home/fang/work/template/0223/src/epollsev.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fang/work/template/0223/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o -c /home/fang/work/template/0223/src/epollsev.cpp
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o: CMakeFiles/epollsev.dir/flags.make
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o: /home/fang/work/template/0223/src/base/epollsev.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fang/work/template/0223/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o -c /home/fang/work/template/0223/src/base/epollsev.cpp
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fang/work/template/0223/src/epollsev.cpp > CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.i
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fang/work/template/0223/src/base/epollsev.cpp > CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.i
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fang/work/template/0223/src/epollsev.cpp -o CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.s
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fang/work/template/0223/src/base/epollsev.cpp -o CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.s
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o.requires:
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o.requires:
 
-.PHONY : CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o.requires
+.PHONY : CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o.requires
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o.provides: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o.requires
-	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o.provides.build
-.PHONY : CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o.provides
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o.provides: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o.requires
+	$(MAKE) -f CMakeFiles/epollsev.dir/build.make CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o.provides.build
+.PHONY : CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o.provides
 
-CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o.provides.build: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o
+CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o.provides.build: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o
 
 
 # Object files for target epollsev
 epollsev_OBJECTS = \
 "CMakeFiles/epollsev.dir/epollsev_test.cpp.o" \
-"CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o" \
-"CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o"
+"CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o" \
+"CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o"
 
 # External object files for target epollsev
 epollsev_EXTERNAL_OBJECTS =
 
 epollsev: CMakeFiles/epollsev.dir/epollsev_test.cpp.o
-epollsev: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o
-epollsev: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o
+epollsev: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o
+epollsev: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o
 epollsev: CMakeFiles/epollsev.dir/build.make
 epollsev: CMakeFiles/epollsev.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fang/work/template/0223/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable epollsev"
@@ -152,8 +152,8 @@ CMakeFiles/epollsev.dir/build: epollsev
 .PHONY : CMakeFiles/epollsev.dir/build
 
 CMakeFiles/epollsev.dir/requires: CMakeFiles/epollsev.dir/epollsev_test.cpp.o.requires
-CMakeFiles/epollsev.dir/requires: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/log.cpp.o.requires
-CMakeFiles/epollsev.dir/requires: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/epollsev.cpp.o.requires
+CMakeFiles/epollsev.dir/requires: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/log.cpp.o.requires
+CMakeFiles/epollsev.dir/requires: CMakeFiles/epollsev.dir/home/fang/work/template/0223/src/base/epollsev.cpp.o.requires
 
 .PHONY : CMakeFiles/epollsev.dir/requires
 

@@ -8,7 +8,7 @@ void test(){
 }
 int main(){
     a.Value()=0;
-    THD::mThread t1(test,"thread1");
+    BASE::mThread t1(test,"thread1");
     t1.start();
     t1.join();
     std::cout<<a.Value()<<std::endl;

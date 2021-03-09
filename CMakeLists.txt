@@ -27,7 +27,9 @@ FILE(GLOB_RECURSE SC_FILES "src/*.cpp" "src/include/*.h")
 # target_link_libraries(${PROJECT_NAME} "libyaml-cpp.a")
 SET( EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET( LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
-add_subdirectory(src)
+
+add_subdirectory(src/base)
+add_subdirectory(src/net)
 add_subdirectory(test)
 
 

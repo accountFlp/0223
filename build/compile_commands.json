@@ -1,142 +1,192 @@
 [
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/Exception.cpp.o -c /home/fang/work/template/0223/src/Exception.cpp",
-  "file": "/home/fang/work/template/0223/src/Exception.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/Exception.cpp.o -c /home/fang/work/template/0223/src/base/Exception.cpp",
+  "file": "/home/fang/work/template/0223/src/base/Exception.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/Timestamp.cpp.o -c /home/fang/work/template/0223/src/Timestamp.cpp",
-  "file": "/home/fang/work/template/0223/src/Timestamp.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/Timestamp.cpp.o -c /home/fang/work/template/0223/src/base/Timestamp.cpp",
+  "file": "/home/fang/work/template/0223/src/base/Timestamp.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /home/fang/work/template/0223/src/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp",
-  "file": "/home/fang/work/template/0223/src/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /home/fang/work/template/0223/src/base/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "file": "/home/fang/work/template/0223/src/base/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/epollsev.cpp.o -c /home/fang/work/template/0223/src/epollsev.cpp",
-  "file": "/home/fang/work/template/0223/src/epollsev.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/epollsev.cpp.o -c /home/fang/work/template/0223/src/base/epollsev.cpp",
+  "file": "/home/fang/work/template/0223/src/base/epollsev.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/log.cpp.o -c /home/fang/work/template/0223/src/log.cpp",
-  "file": "/home/fang/work/template/0223/src/log.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/log.cpp.o -c /home/fang/work/template/0223/src/base/log.cpp",
+  "file": "/home/fang/work/template/0223/src/base/log.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/mCondition.cpp.o -c /home/fang/work/template/0223/src/mCondition.cpp",
-  "file": "/home/fang/work/template/0223/src/mCondition.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/mCondition.cpp.o -c /home/fang/work/template/0223/src/base/mCondition.cpp",
+  "file": "/home/fang/work/template/0223/src/base/mCondition.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/mCountDown.cpp.o -c /home/fang/work/template/0223/src/mCountDown.cpp",
-  "file": "/home/fang/work/template/0223/src/mCountDown.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/mCountDown.cpp.o -c /home/fang/work/template/0223/src/base/mCountDown.cpp",
+  "file": "/home/fang/work/template/0223/src/base/mCountDown.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/mException.cpp.o -c /home/fang/work/template/0223/src/mException.cpp",
-  "file": "/home/fang/work/template/0223/src/mException.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/mException.cpp.o -c /home/fang/work/template/0223/src/base/mException.cpp",
+  "file": "/home/fang/work/template/0223/src/base/mException.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/mMutex.cpp.o -c /home/fang/work/template/0223/src/mMutex.cpp",
-  "file": "/home/fang/work/template/0223/src/mMutex.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/mMutex.cpp.o -c /home/fang/work/template/0223/src/base/mMutex.cpp",
+  "file": "/home/fang/work/template/0223/src/base/mMutex.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/mThreadPool.cpp.o -c /home/fang/work/template/0223/src/mThreadPool.cpp",
-  "file": "/home/fang/work/template/0223/src/mThreadPool.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/mThreadPool.cpp.o -c /home/fang/work/template/0223/src/base/mThreadPool.cpp",
+  "file": "/home/fang/work/template/0223/src/base/mThreadPool.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/mTimeStamp.cpp.o -c /home/fang/work/template/0223/src/mTimeStamp.cpp",
-  "file": "/home/fang/work/template/0223/src/mTimeStamp.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/mTimeStamp.cpp.o -c /home/fang/work/template/0223/src/base/mTimeStamp.cpp",
+  "file": "/home/fang/work/template/0223/src/base/mTimeStamp.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/poll_server.cpp.o -c /home/fang/work/template/0223/src/poll_server.cpp",
-  "file": "/home/fang/work/template/0223/src/poll_server.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/poll_server.cpp.o -c /home/fang/work/template/0223/src/base/poll_server.cpp",
+  "file": "/home/fang/work/template/0223/src/base/poll_server.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/thread.cpp.o -c /home/fang/work/template/0223/src/thread.cpp",
-  "file": "/home/fang/work/template/0223/src/thread.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/thread.cpp.o -c /home/fang/work/template/0223/src/base/thread.cpp",
+  "file": "/home/fang/work/template/0223/src/base/thread.cpp"
 },
 {
-  "directory": "/home/fang/work/template/0223/build/src",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/../lib/include -I/home/fang/work/template/0223/src/./include  -g   -o CMakeFiles/base.dir/threadfb.cpp.o -c /home/fang/work/template/0223/src/threadfb.cpp",
-  "file": "/home/fang/work/template/0223/src/threadfb.cpp"
+  "directory": "/home/fang/work/template/0223/build/src/base",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/base/../../lib/include -I/home/fang/work/template/0223/src/base/./include  -g   -o CMakeFiles/base.dir/threadfb.cpp.o -c /home/fang/work/template/0223/src/base/threadfb.cpp",
+  "file": "/home/fang/work/template/0223/src/base/threadfb.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/src/net",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/net/../../lib/include -I/home/fang/work/template/0223/src/net/../base/include  -g   -o CMakeFiles/net.dir/TimerQueue.cpp.o -c /home/fang/work/template/0223/src/net/TimerQueue.cpp",
+  "file": "/home/fang/work/template/0223/src/net/TimerQueue.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/src/net",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/net/../../lib/include -I/home/fang/work/template/0223/src/net/../base/include  -g   -o CMakeFiles/net.dir/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /home/fang/work/template/0223/src/net/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "file": "/home/fang/work/template/0223/src/net/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/src/net",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/net/../../lib/include -I/home/fang/work/template/0223/src/net/../base/include  -g   -o CMakeFiles/net.dir/epollpoll.cpp.o -c /home/fang/work/template/0223/src/net/epollpoll.cpp",
+  "file": "/home/fang/work/template/0223/src/net/epollpoll.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/src/net",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/net/../../lib/include -I/home/fang/work/template/0223/src/net/../base/include  -g   -o CMakeFiles/net.dir/mChannel.cpp.o -c /home/fang/work/template/0223/src/net/mChannel.cpp",
+  "file": "/home/fang/work/template/0223/src/net/mChannel.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/src/net",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/net/../../lib/include -I/home/fang/work/template/0223/src/net/../base/include  -g   -o CMakeFiles/net.dir/mEventLoop.cpp.o -c /home/fang/work/template/0223/src/net/mEventLoop.cpp",
+  "file": "/home/fang/work/template/0223/src/net/mEventLoop.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/src/net",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/net/../../lib/include -I/home/fang/work/template/0223/src/net/../base/include  -g   -o CMakeFiles/net.dir/mEventLoopThread.cpp.o -c /home/fang/work/template/0223/src/net/mEventLoopThread.cpp",
+  "file": "/home/fang/work/template/0223/src/net/mEventLoopThread.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/src/net",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/net/../../lib/include -I/home/fang/work/template/0223/src/net/../base/include  -g   -o CMakeFiles/net.dir/mPoll.cpp.o -c /home/fang/work/template/0223/src/net/mPoll.cpp",
+  "file": "/home/fang/work/template/0223/src/net/mPoll.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/src/net",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/src/net/../../lib/include -I/home/fang/work/template/0223/src/net/../base/include  -g   -o CMakeFiles/net.dir/pollpoll.cpp.o -c /home/fang/work/template/0223/src/net/pollpoll.cpp",
+  "file": "/home/fang/work/template/0223/src/net/pollpoll.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/exception_test.dir/exception_test.cpp.o -c /home/fang/work/template/0223/test/exception_test.cpp",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/exception_test.dir/exception_test.cpp.o -c /home/fang/work/template/0223/test/exception_test.cpp",
   "file": "/home/fang/work/template/0223/test/exception_test.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/epollsev.dir/epollsev_test.cpp.o -c /home/fang/work/template/0223/test/epollsev_test.cpp",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/EventLoop_test.dir/EventLoop_test.cpp.o -c /home/fang/work/template/0223/test/EventLoop_test.cpp",
+  "file": "/home/fang/work/template/0223/test/EventLoop_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/epollsev.dir/epollsev_test.cpp.o -c /home/fang/work/template/0223/test/epollsev_test.cpp",
   "file": "/home/fang/work/template/0223/test/epollsev_test.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/epollsev.dir/__/src/log.cpp.o -c /home/fang/work/template/0223/src/log.cpp",
-  "file": "/home/fang/work/template/0223/src/log.cpp"
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/epollsev.dir/__/src/base/log.cpp.o -c /home/fang/work/template/0223/src/base/log.cpp",
+  "file": "/home/fang/work/template/0223/src/base/log.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/epollsev.dir/__/src/epollsev.cpp.o -c /home/fang/work/template/0223/src/epollsev.cpp",
-  "file": "/home/fang/work/template/0223/src/epollsev.cpp"
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/epollsev.dir/__/src/base/epollsev.cpp.o -c /home/fang/work/template/0223/src/base/epollsev.cpp",
+  "file": "/home/fang/work/template/0223/src/base/epollsev.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/thread_test.dir/thread_test.cc.o -c /home/fang/work/template/0223/test/thread_test.cc",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/thread_test.dir/thread_test.cc.o -c /home/fang/work/template/0223/test/thread_test.cc",
   "file": "/home/fang/work/template/0223/test/thread_test.cc"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/mutex_test.dir/mutex_test.cpp.o -c /home/fang/work/template/0223/test/mutex_test.cpp",
-  "file": "/home/fang/work/template/0223/test/mutex_test.cpp"
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/EventLoopThread_test.dir/EventLoopThread_test.cpp.o -c /home/fang/work/template/0223/test/EventLoopThread_test.cpp",
+  "file": "/home/fang/work/template/0223/test/EventLoopThread_test.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/t.dir/多态.cpp.o -c /home/fang/work/template/0223/test/多态.cpp",
-  "file": "/home/fang/work/template/0223/test/多态.cpp"
-},
-{
-  "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/countDown_test.dir/countDown_test.cpp.o -c /home/fang/work/template/0223/test/countDown_test.cpp",
-  "file": "/home/fang/work/template/0223/test/countDown_test.cpp"
-},
-{
-  "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.o -c /home/fang/work/template/0223/test/BlockingQueue_test.cpp",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/BlockingQueue_test.dir/BlockingQueue_test.cpp.o -c /home/fang/work/template/0223/test/BlockingQueue_test.cpp",
   "file": "/home/fang/work/template/0223/test/BlockingQueue_test.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.o -c /home/fang/work/template/0223/test/BoundBlockQueue_test.cpp",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/mutex_test.dir/mutex_test.cpp.o -c /home/fang/work/template/0223/test/mutex_test.cpp",
+  "file": "/home/fang/work/template/0223/test/mutex_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/t.dir/多态.cpp.o -c /home/fang/work/template/0223/test/多态.cpp",
+  "file": "/home/fang/work/template/0223/test/多态.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/countDown_test.dir/countDown_test.cpp.o -c /home/fang/work/template/0223/test/countDown_test.cpp",
+  "file": "/home/fang/work/template/0223/test/countDown_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/BoundBlockQueue_test.dir/BoundBlockQueue_test.cpp.o -c /home/fang/work/template/0223/test/BoundBlockQueue_test.cpp",
   "file": "/home/fang/work/template/0223/test/BoundBlockQueue_test.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/Singleton_test.dir/Singleton_test.cpp.o -c /home/fang/work/template/0223/test/Singleton_test.cpp",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.o -c /home/fang/work/template/0223/test/ThreadPool_test.cpp",
+  "file": "/home/fang/work/template/0223/test/ThreadPool_test.cpp"
+},
+{
+  "directory": "/home/fang/work/template/0223/build/test",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/Singleton_test.dir/Singleton_test.cpp.o -c /home/fang/work/template/0223/test/Singleton_test.cpp",
   "file": "/home/fang/work/template/0223/test/Singleton_test.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/ThreadLocal_test.dir/ThreadLocal_test.cpp.o -c /home/fang/work/template/0223/test/ThreadLocal_test.cpp",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/ThreadLocal_test.dir/ThreadLocal_test.cpp.o -c /home/fang/work/template/0223/test/ThreadLocal_test.cpp",
   "file": "/home/fang/work/template/0223/test/ThreadLocal_test.cpp"
 },
 {
   "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/netclient.dir/client.cpp.o -c /home/fang/work/template/0223/test/client.cpp",
+  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/base/include -I/home/fang/work/template/0223/test/../lib/include -I/home/fang/work/template/0223/test/../src/net  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/netclient.dir/client.cpp.o -c /home/fang/work/template/0223/test/client.cpp",
   "file": "/home/fang/work/template/0223/test/client.cpp"
-},
-{
-  "directory": "/home/fang/work/template/0223/build/test",
-  "command": "/usr/bin/g++-7   -I/home/fang/work/template/0223/test/../src/include -I/home/fang/work/template/0223/test/../lib/include  -g -Wall -Wextra -std=c++11 -g   -o CMakeFiles/ThreadPool_test.dir/ThreadPool_test.cpp.o -c /home/fang/work/template/0223/test/ThreadPool_test.cpp",
-  "file": "/home/fang/work/template/0223/test/ThreadPool_test.cpp"
 }
 ]
